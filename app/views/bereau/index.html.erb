@@ -1,0 +1,12 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+
+<h1>Main page Alam consulting</h1>
+
+<% @articles.each do |article| %>
+<div class="entry">
+  <h3><%= article.title %></h3>
+  <p><%= sanitize(article.description) %></p>
+</div>
+<% end %>

@@ -1,0 +1,2 @@
+module BereauHelper
+end

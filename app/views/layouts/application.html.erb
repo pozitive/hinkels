@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Alam</title>
+  <title>Alam consulting</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<%= yield %>
+
+  <header>
+    <div class="container head">
+      <div class="row">
+        <div class="logo span3">
+          <p>afsd</p>
+          <p>afsd</p>
+        </div>
+        <div class="span9">
+          <%= image_tag('logo-shadow.png', alt: "Alam consulting", class: "shadow") %>
+
+          <div class="row">
+            adsf
+          </div>
+          <div class="row">
+            adsf
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main container">
+    <%= yield %>
+  </div>
+
+  <footer>
+    <div class="container">
+      footer
+    </div>
+  </footer>
 
 </body>
 </html>

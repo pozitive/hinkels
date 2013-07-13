@@ -10,35 +10,208 @@
 <body>
 
 
-  <header>
-    <div class="container head">
+  <header id="" class="head" >
+    <div class="container top">
       <div class="row">
-        <div class="logo span3">
-          <p>afsd</p>
-          <p>afsd</p>
+        <div class="logo span4">
+          <%= image_tag('logo.jpg', alt: "Alam consulting") %>
         </div>
-        <div class="span9">
-          <%= image_tag('logo-shadow.png', alt: "Alam consulting", class: "shadow") %>
-
-          <div class="row">
-            adsf
-          </div>
-          <div class="row">
-            adsf
-          </div>
-
+        <div class="span8">
+          <ul class="nav nav-tabs">
+            <li class="dropdown active">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                О компании
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Миссия</a></li>
+                <li><a href="#">Членство</a></li>
+                <li><a href="#">Рекомендации</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Услуги
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Миграционное право</a></li>
+                <li><a href="#">Корпоративное право</a></li>
+                <li><a href="#">Недвижимость</a></li>
+                <li><a href="#">Трудовое право</a></li>
+                <li><a href="#">Представительство в суде</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Мероприятия</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Юристы</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <h2 class="slogan">Realize Your Constitutional Right for Qualified Legal Help</h2>
         </div>
       </div>
     </div>
   </header>
 
-  <div class="main container">
-    <%= yield %>
+  <div class="container slide">
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item">
+          <%= image_tag('slide1.jpg', alt: "Alam consulting") %>
+        </div>
+        <div class="item">
+          <%= image_tag('slide2.jpg', alt: "Alam consulting") %>
+        </div>
+        <div class="item">
+          <%= image_tag('slide3.jpg', alt: "Alam consulting") %>
+        </div>
+        <div class="item">
+          <%= image_tag('slide4.jpg', alt: "Alam consulting") %>
+        </div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
   </div>
+
+  <div class="main container">
+    <div class="row">
+      <div class="span4">
+        <div class="solution">
+          <div class="page-header">
+            <h3>Solutions Overview</h3>
+          </div>
+          <div class="page-header">
+            <h4><a><em>
+                <i class="icon-play"></i>
+                <u>Personal Solutions</u>
+            </em></a></h4> 
+            <p>Porta variusm hendreit mauris Lorem ipsum dolor ametcon
+            seter adipcng elit praesent vestib.</p>
+            <a class="learn"><strong>
+                Learn more
+                <i class="icon-chevron-right"></i>
+            </strong></a>
+          </div>
+          <div class="page-header">
+            <h4><a><em>
+                <i class="icon-play"></i>
+                <u>Insurance Solutions</u>
+            </em></a></h4> 
+            <p>Porta variusm hendreit mauris Lorem ipsum dolor ametcon
+            seter adipcng elit praesent vestib.</p>
+            <a class="learn"><strong>
+                Learn more
+                <i class="icon-chevron-right"></i>
+            </strong></a>
+          </div>
+          <div class="page-header">
+            <h4><a><em>
+                <i class="icon-play"></i>
+                <u>Business Solutions</u>
+            </em></a></h4> 
+            <p>Porta variusm hendreit mauris Lorem ipsum dolor ametcon
+            seter adipcng elit praesent vestib.</p>
+            <a class="learn"><strong>
+                Learn more
+                <i class="icon-chevron-right"></i>
+            </strong></a>
+          </div>
+        </div>
+      </div>
+      <div class="span8">
+        <div class="content">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+    <div class="areas">
+      <div class="page-header">
+        <h3>Areas of Practise</h3>
+      </div>
+      <div class="row">
+        <div class="span3 first">
+          <ul>
+            <li><a>Elder Abuse Cases</a></li>
+            <li><a>Insurance Law</a></li>
+            <li><a>Immigration Law</a></li>
+            <li><a>Family Law</a></li>
+            <li><a>Employment Law</a></li>
+          </ul>
+        </div>
+        <div class="span3">
+          <ul>
+            <li><a>Serious Personal Injury Cases</a></li>
+            <li><a>Malpractice Law</a></li>
+            <li><a>Landlord-Tenant Law</a></li>
+            <li><a>Labor Law</a></li>
+            <li><a>Workers' Compensation Law</a></li>
+          </ul>
+        </div>
+        <div class="span3">
+          <ul>
+            <li><a>Business Law</a></li>
+            <li><a>Real Property Law</a></li>
+            <li><a>Class Action Lawsuits</a></li>
+            <li><a>Juvenile Law</a></li>
+            <li><a>Social Security Law</a></li>
+          </ul>
+        </div>
+        <div class="span3 last">
+          <ul>
+            <li><a>Securities Law</a></li>
+            <li><a>Intellectual Property</a></li>
+            <li><a>Real Property Law</a></li>
+            <li><a>Criminal Law</a></li>
+            <li><a>Malpractice Law</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div> 
 
   <footer>
     <div class="container">
-      footer
+      <div class="page-header">
+        <div class="row">
+          <div class="span3 call">
+            <h5>Call Toll-Free:<br/> 1-800-559-65-80</h5>
+          </div>
+          <div class="span1">
+            <h5><%= image_tag('phone.jpg', alt: "Alam consulting") %></h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span2">
+          <h3 class="brand">ALAM<br/><small>consulting</small></h3>
+        </div>
+        <div class="span8">
+          <ul class="nav nav-pills inverse">
+            <li class="disabled"><a href="#">О компании</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Мероприятия</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Юристы</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <p class="privacy"><small>© 2013 : Privacy Policy</small></p>
+        </div>
+      </div>
+
+      
     </div>
   </footer>
 

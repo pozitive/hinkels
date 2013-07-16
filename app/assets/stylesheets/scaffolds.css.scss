@@ -32,6 +32,11 @@ h3 {
             width: 250px;
          }
       }
+      .nav {
+        a {
+          font-size: 13.5px;
+        }       
+      }     
       .slogan {
          color: #242222;
          font-family: 'Georgia';
@@ -150,6 +155,7 @@ h3 {
    }     
    a {
    color: black;
+   
    }
    a:hover {
    text-decoration: none;

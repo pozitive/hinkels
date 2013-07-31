@@ -17,7 +17,7 @@
       <tr>
         <td><%= link_to article.id, article_path(article) %></td>
         <td><%= article.title %></td>
-        <td><%= article.description %></td>
+        <td><%= article.description.html_safe %></td>
         <td><%=l article.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -27,7 +27,7 @@
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-mini btn-danger' %>
-        </td>
+        </td> 
       </tr>
     <% end %>
   </tbody>

@@ -33,8 +33,15 @@ SimpleNavigation::Configuration.run do |navigation|
   # Define the primary navigation
   navigation.items do |primary|
     primary.item :about, 'О компании', article_path(1)
-    primary.item :articles, 'Articles', articles_path
-
+    primary.item :services, 'Услуги', services_path do |services|
+      services.item :intellectual, 'Интелектуальное право', service_path(1)
+      services.item :corporate, 'Корпоративное право', service_path(2)
+      services.item :migration, 'Миграционное право', service_path(3)
+      services.item :tax, 'Налоговое право', service_path(4)
+      services.item :realestate, 'Недвижимость', service_path(5)
+      services.item :litigation, 'Судебное право', service_path(6)
+      services.item :labor, 'Трудовое право', service_path(7)
+    end
 
     
     # Add an item to the primary navigation. The following params apply:

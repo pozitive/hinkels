@@ -1,4 +1,10 @@
 Alam::Application.routes.draw do
+  resources :news
+
+  resources :activities
+
+  resources :services
+
   get "bereau/index"
   resources :articles
 

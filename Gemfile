@@ -47,6 +47,11 @@ gem "twitter-bootstrap-rails"
 # Use for navigation
 gem "simple-navigation"
 
+gem 'simple-navigation-bootstrap'
+
+
+
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

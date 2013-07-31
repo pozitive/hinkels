@@ -1,5 +1,6 @@
 Alam::Application.routes.draw do
-  resources :news
+
+  resources :publications
 
   resources :activities
 

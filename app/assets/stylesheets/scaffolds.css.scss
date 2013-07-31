@@ -34,7 +34,7 @@ h3 {
       }
       .nav {
         a {
-          font-size: 13px; 
+          font-size: 14px; 
         }       
       }     
       .slogan {
@@ -180,10 +180,22 @@ footer {
    h3.brand {
       padding-top: 15px;
       color:#8c8a89;
-      font-family:'Oswald';
       font-size:24px;
-      line-height: 18px;
+      line-height: 23px;
       padding-left: 20px;
+   }
+   medium {
+
+      font-size: 22px;       
+   }
+   ul.nav-tabs {
+      border: none;
+      li {
+         a.active, a:hover, a:focus {
+            border-radius: 4px;
+            color: #27218E;
+         }
+      }
    }
    ul.inverse {
       margin-bottom:0;

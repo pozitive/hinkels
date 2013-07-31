@@ -97,6 +97,9 @@ GEM
       rdoc (~> 3.10)
     simple-navigation (3.11.0)
       activesupport (>= 2.3.2)
+    simple-navigation-bootstrap (1.0.0)
+      railties (>= 3.1)
+      simple-navigation (>= 3.7.0)
     sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -142,6 +145,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.0)
   sdoc
   simple-navigation
+  simple-navigation-bootstrap
   therubyracer
   turbolinks
   twitter-bootstrap-rails

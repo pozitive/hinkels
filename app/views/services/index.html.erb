@@ -17,7 +17,7 @@
       <tr>
         <td><%= link_to service.id, service_path(service) %></td>
         <td><%= service.title %></td>
-        <td><%= service.description %></td>
+        <td><%= service.description.html_safe %></td>
         <td><%=l service.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

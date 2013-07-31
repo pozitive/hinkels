@@ -31,18 +31,39 @@ SimpleNavigation::Configuration.run do |navigation|
   # navigation.auto_highlight = false
 
   # Define the primary navigation
-  navigation.items do |primary|
-    primary.item :about, 'О компании', article_path(1)
-    primary.item :services, 'Услуги', services_path do |services|
-      services.item :intellectual, 'Интелектуальное право', service_path(1)
-      services.item :corporate, 'Корпоративное право', service_path(2)
-      services.item :migration, 'Миграционное право', service_path(3)
-      services.item :tax, 'Налоговое право', service_path(4)
-      services.item :realestate, 'Недвижимость', service_path(5)
-      services.item :litigation, 'Судебное право', service_path(6)
-      services.item :labor, 'Трудовое право', service_path(7)
-    end
 
+  aboutus = Article.find_by_title("Об организации")
+  mission = Article.find_by_title("Миссия")
+  contact = Article.find_by_title("Контакты")
+
+  intellectual = Service.find_by_title("Интеллектуальная собственность")
+  corporate = Service.find_by_title("Корпоративное право")
+  migration = Service.find_by_title("Миграционное право")
+  tax = Service.find_by_title("Налоговое право")
+  realestate = Service.find_by_title("Недвижимость")
+  litigation = Service.find_by_title("Судебное представительство")
+  labor = Service.find_by_title("Трудовое право")
+  
+  
+  navigation.items do |primary|
+    primary.dom_id = "primary-menu"
+    primary.dom_class = "nav nav-tabs"
+    primary.item :about, 'О компании', article_path(aboutus.id) do |about|
+      about.item :aboutus, 'О нас', article_path(aboutus.id)
+      about.item :mission, 'Миссия', article_path(mission.id)      
+    end    
+    primary.item :services, 'Услуги', services_path do |services|
+      services.item :intellectual, 'Интелектуальное право', service_path(intellectual.id)
+      services.item :corporate, 'Корпоративное право', service_path(corporate.id)
+      services.item :migration, 'Миграционное право', service_path(migration.id)
+      services.item :tax, 'Налоговое право', service_path(tax.id)
+      services.item :realestate, 'Недвижимость', service_path(realestate.id)
+      services.item :litigation, 'Судебное право', service_path(litigation.id)
+      services.item :labor, 'Трудовое право', service_path(labor.id)
+    end
+    primary.item :activities, 'Мероприятия', activities_path
+    primary.item :publication, 'Новости', publications_path
+    primary.item :contact, contact.title, article_path(contact.id)
     
     # Add an item to the primary navigation. The following params apply:
     # key - a symbol which uniquely defines your navigation item in the scope of the primary_navigation
@@ -84,5 +105,5 @@ SimpleNavigation::Configuration.run do |navigation|
     # primary.auto_highlight = false
 
   end
-
+  
 end

@@ -5,11 +5,13 @@ class ArticlesController < ApplicationController
   # GET /articles.json
   def index
     @articles = Article.all
+    @services = Service.order(:title)
   end
 
   # GET /articles/1
   # GET /articles/1.json
   def show
+    @services = Service.order(:title)    
   end
 
   # GET /articles/new

@@ -5,11 +5,13 @@ class ActivitiesController < ApplicationController
   # GET /activities.json
   def index
     @activities = Activity.all
+    @services = Service.order(:title)
   end
 
   # GET /activities/1
   # GET /activities/1.json
   def show
+    @services = Service.order(:title)
   end
 
   # GET /activities/new

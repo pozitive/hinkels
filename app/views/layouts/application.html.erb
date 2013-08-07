@@ -12,93 +12,36 @@
 
   <header id="" class="head" >
     <%= render "layouts/menu" %>
+    <div class="container slide">
+      <%= render "layouts/slide" %>
+    </div>
   </header>
 
-  <div class="container slide">
-    <%= render "layouts/slide" %>
-  </div>
-
-
   <div class="main container">
+    <section id="content">
+      <div class="row">
+        <div class="span4">
+
+        </div>
+        <div class="span8">
+          <div class="content">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="row">
       <div class="span12">
-        <div class="content">
-          <%= yield %>
-        </div>
+
       </div>
     </div>
 
-    <div class="areas">
-      <div class="page-header">
-        <h3>Areas of Practise</h3>
-      </div>
-      <div class="row">
-        <div class="span3 first">
-          <ul>
-            <li><a>Elder Abuse Cases</a></li>
-            <li><a>Insurance Law</a></li>
-            <li><a>Immigration Law</a></li>
-            <li><a>Family Law</a></li>
-            <li><a>Employment Law</a></li>
-          </ul>
-        </div>
-        <div class="span3">
-          <ul>
-            <li><a>Serious Personal Injury Cases</a></li>
-            <li><a>Malpractice Law</a></li>
-            <li><a>Landlord-Tenant Law</a></li>
-            <li><a>Labor Law</a></li>
-            <li><a>Workers' Compensation Law</a></li>
-          </ul>
-        </div>
-        <div class="span3">
-          <ul>
-            <li><a>Business Law</a></li>
-            <li><a>Real Property Law</a></li>
-            <li><a>Class Action Lawsuits</a></li>
-            <li><a>Juvenile Law</a></li>
-            <li><a>Social Security Law</a></li>
-          </ul>
-        </div>
-        <div class="span3 last">
-          <ul>
-            <li><a>Securities Law</a></li>
-            <li><a>Intellectual Property</a></li>
-            <li><a>Real Property Law</a></li>
-            <li><a>Criminal Law</a></li>
-            <li><a>Malpractice Law</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
 
   </div> 
 
   <footer>
-    <div class="container">
-      <div class="page-header">
-        <div class="row">
-          <div class="span3 call">
-            <h5>Call Toll-Free:<br/> 1-800-559-65-80</h5>
-          </div>
-          <div class="span1">
-            <h5><%= image_tag('phone.jpg', alt: "Alam consulting") %></h5>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span2">
-          <h3 class="brand">HINKELS<br/><medium>consulting</medium></h3>
-        </div>
-        <div class="span8">
-          <%= render_navigation :level => 1, :renderer => :bootstrap %>
-          <p class="privacy"><small>© 2013 : Privacy Policy</small></p>
-        </div>
-      </div>
-
-      
-    </div>
+    <%= render "layouts/footer" %>
   </footer>
 
 </body>

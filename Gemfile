@@ -49,7 +49,8 @@ gem "simple-navigation"
 
 gem 'simple-navigation-bootstrap'
 
-
+# Truncate Html
+gem 'truncate_html'
 
 
 # Use unicorn as the app server

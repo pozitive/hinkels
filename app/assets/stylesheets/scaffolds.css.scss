@@ -10,7 +10,9 @@ h3 {
    font-weight: normal;
 }
 
+header {
 
+}
 .container {
 
 }
@@ -79,11 +81,13 @@ h3 {
       margin:0;
    }
 }
+#content {
+   margin-top: 50px;
+}
 .main {
-
    background: $main-background;
    border-color: #E4E3DF;
-  border-style: solid;
+   border-style: solid;
    border-width: 1px;
    border-top: none;
    .solution {
@@ -121,9 +125,6 @@ h3 {
          color: black;
 
       }
-   }
-   .content {
-      margin-right: 15px;
    }
    .allservice {
       .page-header {

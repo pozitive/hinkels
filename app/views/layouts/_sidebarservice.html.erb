@@ -1,9 +1,9 @@
 <div class="solution">
   <div class="page-header">
-    <h1>Наши услуги</h1>
+    <h2>Наши услуги</h2>
   </div>
   <%- model_class = Service -%>
-    <% @services.shuffle.take(3).each do |service| %>
+    <% Service.all.shuffle.take(3).each do |service| %>
       <div class="page-header">
         <h4><a><em>
               <i class="icon-play"></i>

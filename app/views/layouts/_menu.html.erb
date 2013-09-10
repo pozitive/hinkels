@@ -1,11 +1,17 @@
 <div class="container top">
   <div class="row">
-    <div class="logo span4">
-      <%= link_to image_tag('logo.jpg', alt: "Alam consulting"), bereau_path %>
+    <div class="span4">
+      <div class="logo">
+        <%= link_to image_tag('logo.jpg', alt: "Hinkels consulting"),
+      bereau_path %>
+        <form class="navbar-search pull-left">
+          <input type="text" class="search-query" placeholder="Поиск">
+        </form>
+      </div>
     </div>
     <div class="span8">
       <%= render_navigation :expand_all => true, :renderer => :bootstrap %>
-      <h2 class="slogan">Realize Your Constitutional Right for Qualified Legal Help</h2>
+      <h2 class="slogan">Старт, сопровождение и защита бизнеса в России</h2>
     </div>
   </div>
 </div>

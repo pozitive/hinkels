@@ -24,12 +24,16 @@ h3 {
       border-width: 1px;
       border-bottom: none;
       .logo {
-         padding: 55px 0 0px 0;
-         text-align: center;
-
-
+         margin: 10px 0 0 20px;
          img {
             width: 250px;
+         }
+         form {
+            margin: 20px 0 0 0px;
+            width: 250px;
+            input {
+               width: 220px;
+            }
          }
       }
       .nav {

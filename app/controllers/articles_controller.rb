@@ -11,7 +11,8 @@ class ArticlesController < ApplicationController
   # GET /articles/1
   # GET /articles/1.json
   def show
-    @services = Service.order(:title)    
+    @services = Service.order(:title)
+    @slide = 'slide4.jpg' if @article.id == 24
   end
 
   # GET /articles/new

@@ -6,12 +6,14 @@ class ActivitiesController < ApplicationController
   def index
     @activities = Activity.all
     @services = Service.order(:title)
+    @slide = 'slide3.jpg'
   end
 
   # GET /activities/1
   # GET /activities/1.json
   def show
     @services = Service.order(:title)
+    @slide = 'slide3.jpg'
   end
 
   # GET /activities/new

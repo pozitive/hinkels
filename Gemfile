@@ -59,6 +59,9 @@ gem 'unicorn'
 # gem 'rails_admin'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
+# Active Admin Editor, wysihtml5
+gem 'active_admin_editor'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

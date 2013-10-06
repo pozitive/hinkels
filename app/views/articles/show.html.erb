@@ -6,6 +6,7 @@
   <%= @article.description.html_safe %>
 </div> 
 
+<% if admin_user_signed_in? %>
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               articles_path, :class => 'btn'  %>
@@ -17,3 +18,4 @@
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
 </div>
+<% end %>

@@ -26,5 +26,6 @@
 </table>
 
 <br>
-
-<%= link_to 'Добавить мероприятие', new_activity_path %>
+<% if admin_user_signed_in? %>
+  <%= link_to 'Добавить мероприятие', new_activity_path %>
+<% end %>

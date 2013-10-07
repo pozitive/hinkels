@@ -10,3 +10,8 @@
   <%= @publication.description %>
 </p>
 
+<% if admin_user_signed_in? %>
+  <%= link_to 'Edit', edit_publication_path(@publication) %> |
+  <%= link_to 'Back', publications_path %>
+<% end %>
+

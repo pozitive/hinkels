@@ -1,4 +1,5 @@
-<%= form_for @article, :html => { :class => 'form-horizontal' } do |f| %>
+<% if admin_user_signed_in? %>
+  <%= form_for @article, :html => { :class => 'form-horizontal' } do |f| %>
  
 
 
@@ -9,7 +10,7 @@
       </div>
     </div>
     <div class="control-group">
-      <%= f.label :description, :class => 'control-label' %>
+ pp     <%= f.label :description, :class => 'control-label' %>
       <div class="controls">
         <%= f.text_field :description, :class => 'text_field' %>
       </div>
@@ -22,4 +23,7 @@
     </div>
 
 
+  <% end %>
+<% else %>
+  <p>Please <%= link_to 'sign in', admin_root_path %></p>
 <% end %>

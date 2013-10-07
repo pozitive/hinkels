@@ -1,6 +1,7 @@
 class ActivitiesController < ApplicationController
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
-
+  before_filter :require_login, only: [ :edit, :update, :destroy, :create]
+  
   # GET /activities
   # GET /activities.json
   def index
@@ -75,4 +76,12 @@ class ActivitiesController < ApplicationController
     def activity_params
       params.require(:activity).permit(:title, :description)
     end
+
+    def require_login
+      unless admin_user_signed_in?
+        redirect_to admin_root_path,
+        alert: "Please, Sign In first!"
+      end 
+    end
+
 end

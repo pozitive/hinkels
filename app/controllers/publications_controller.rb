@@ -1,6 +1,7 @@
 class PublicationsController < ApplicationController
   before_action :set_publication, only: [:show, :edit, :update, :destroy]
-
+  before_filter :require_login, only: [ :edit, :update, :destroy, :create]
+  
   # GET /publications
   # GET /publications.json
   def index
@@ -73,4 +74,12 @@ class PublicationsController < ApplicationController
     def publication_params
       params.require(:publication).permit(:title, :description)
     end
+
+    def require_login
+      unless admin_user_signed_in?
+        redirect_to admin_root_path,
+        alert: "Please, Sign In first!"
+      end 
+    end
+  
 end

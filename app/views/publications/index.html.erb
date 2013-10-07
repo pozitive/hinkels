@@ -20,5 +20,7 @@
 </table>
 
 <br>
-
+<% if admin_user_signed_in? %>
+  <%= link_to 'Добавить новость', new_publication_path %>
+<% end %>
 

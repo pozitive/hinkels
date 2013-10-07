@@ -1,6 +1,7 @@
 class ServicesController < ApplicationController
   before_action :set_service, only: [:show, :edit, :update, :destroy]
-
+  before_filter :require_login, only: [:index, :edit, :update, :destroy, :create]
+  
   # GET /services
   # GET /services.json
   def index
@@ -72,4 +73,12 @@ class ServicesController < ApplicationController
     def service_params
       params.require(:service).permit(:title, :description)
     end
+
+    def require_login
+      unless admin_user_signed_in?
+        redirect_to admin_root_path,
+        alert: "Please, Sign In first!"
+      end 
+    end
+
 end

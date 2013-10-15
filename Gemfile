@@ -59,8 +59,14 @@ gem 'unicorn'
 # gem 'rails_admin'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
+gem "carrierwave"
+gem "rmagick"
+gem 'fog'
+
+
 # Active Admin Editor, wysihtml5
 gem 'active_admin_editor'
+
 
 # Devise
 gem 'devise'

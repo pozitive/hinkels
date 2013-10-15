@@ -1,9 +1,16 @@
 <div class="page-header">
-  <h3>Статьи</h3>
+  <h3>Поиск</h3>
 </div>
 
+<%= form_tag search_index_path, method: :get do %>
+  <fieldset>
+    <%= text_field_tag :query, params[:query] %>
+    <%= submit_tag "Поиск", name: nil, :class => 'btn btn-primary'%>
+  </fieldset>
+<% end %>
+
 <div id="articles">
-  <% @articles.try(:each) do |article| %>
+  <% @search.try(:each) do |article| %>
     <section class="list">
       <div class="page-header">
         <h4>
@@ -16,3 +23,5 @@
     </section>
   <% end %>
 </div>
+
+

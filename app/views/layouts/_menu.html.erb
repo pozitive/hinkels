@@ -4,9 +4,14 @@
       <div class="logo">
         <%= link_to image_tag('logo.jpg', alt: "Hinkels consulting"),
       bereau_path %>
-        <form class="navbar-search pull-left">
-          <input type="text" class="search-query" placeholder="Поиск">
-        </form>
+
+        <%= form_tag search_index_path, method: :get do %>
+          <fieldset>
+            <%= text_field_tag :query, params[:query],
+            :placeholder => "Поиск" %>
+          </fieldset>
+        <% end %>
+
       </div>
     </div>
     <div class="span8">

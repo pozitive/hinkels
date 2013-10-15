@@ -1,24 +1,25 @@
-<%- model_class = Article -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+  <h3>Поиск</h3>
 </div>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:title) %></th>
-      <th><%= model_class.human_attribute_name(:description) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @articles.each do |article| %>
-      <tr>
-        <td><%= link_to article.id, article_path(article) %></td>
-        <td><%= article.title %></td>
-        <td><%= article.description.html_safe %></td>
-        <td><%=l article.created_at %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+
+<%= form_tag articles_path, method: :get do %>
+  <fieldset>
+    <%= text_field_tag :query, params[:query] %>
+    <%= submit_tag "Поиск", name: nil, :class => 'btn btn-primary'%>
+  </fieldset>
+<% end %>
+
+<div id="articles">
+  <% @articles.each do |article| %>
+    <section class="list">
+      <div class="page-header">
+        <h4>
+          <%= link_to article.title, article %>
+        </h4>
+      </div>
+      <div class="content"><%= truncate_html article.description,
+                               length: 300 %></div>
+      <small>(<%= article.created_at %>)</small>
+    </section>
+  <% end %>
+</div>

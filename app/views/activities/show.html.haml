@@ -1,0 +1,11 @@
+%p{class: "notice"}= notice
+
+%div{class: "page-header"}
+  %h3= @activity.title
+
+%div{class: "description"}= @activity.description.html_safe
+
+- if admin_user_signed_in?
+  = link_to 'Edit', edit_activity_path(@activity)
+  = link_to 'Back', activities_path
+  

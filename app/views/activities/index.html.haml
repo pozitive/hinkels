@@ -1,0 +1,14 @@
+%div{class: "page-header"}
+  %h3 Мероприятия
+
+%div
+  - @activities.each do |activity|
+    %header
+      %h4{clas: "page-header"}=  link_to activity.title, activity_path(activity.id) 
+    %p{class: "content"}= truncate_html activity.description.html_safe, length: 200
+    %aside
+      %small{class: "pull-right"}= activity.created_at.strftime('%d.%m.%Y')
+%div{class: "clearfix"}
+%hr
+
+

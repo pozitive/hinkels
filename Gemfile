@@ -71,6 +71,9 @@ gem 'active_admin_editor', github: 'ejholmes/active_admin_editor'
 # Devise
 gem 'devise'
 
+# Haml
+gem 'haml'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

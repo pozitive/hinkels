@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hinkels consulting</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="<%= controller.controller_name %>">
+
+
+  <header id="" class="head" >
+    <%= render "layouts/menu" %>
+    <div class="container slide">
+      <%= render "layouts/slide" %>
+    </div>
+  </header>
+
+  <div class="main container">
+    <section id="content">
+      <div class="row">
+        <div class="span4">
+          <%= render partial: "layouts/sidebarservice" %>
+        </div>
+        <div class="span8">
+          <div id="cont" class="content">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="span12">
+        <%= render "layouts/allservice" %>
+      </div>
+    </div>
+
+  </div> 
+
+  <footer>
+    <%= render "layouts/footer" %>
+  </footer>
+
+</body>
+</html>

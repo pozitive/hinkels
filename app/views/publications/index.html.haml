@@ -1,0 +1,12 @@
+%div{class: "page-header"}
+  %h3 Мероприятия
+
+%div
+  - @publications.each do |publication|
+    %header
+      %h4{clas: "page-header"}=  link_to publication.title, publication_path(publication.id) 
+    %p{class: "content"}= truncate_html publication.description.html_safe, length: 200
+    %aside
+      %small{class: "pull-right"}= publication.created_at.strftime('%d.%m.%Y')
+%div{class: "clearfix"}
+%hr

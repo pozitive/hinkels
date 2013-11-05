@@ -11,7 +11,9 @@ h3 {
 }
 
 header {
+   .container {
 
+   }
 }
 .container {
 
@@ -19,7 +21,7 @@ header {
 
 .head {
    .top {
-      padding: 10px 0 25px 0; 
+      padding: 10px 20px 25px 20px; 
       background: $main-background;
       border-color: #E4E3DF;
       border-style: solid;
@@ -71,6 +73,7 @@ header {
    }
 }
 .slide {
+   width: 980px;
    border-color: #E4E3DF;
    border-style: solid;
    border-width: 1px;
@@ -85,13 +88,14 @@ header {
    margin-top: 15px;
 }
 .main {
+   padding: 0 20px;
    background: $main-background;
    border-color: #E4E3DF;
    border-style: solid;
    border-width: 1px;
    border-top: none;
    .solution {
-      margin:0 20px 0 20px;
+
       .page-header {
        
       }
@@ -235,7 +239,7 @@ section.list {
 }
 
 .content {
-   padding-right: 15px;
+
    input[type="textarea"] {
    }
    .btn {

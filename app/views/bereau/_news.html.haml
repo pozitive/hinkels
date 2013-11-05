@@ -1,0 +1,15 @@
+.row-fluid
+  .page-header
+    %h3 Новости & Мероприятия
+  %ul.thumbnails
+    - @activities.each do |activity|
+      %li.span6
+        .thumbnail
+          .caption
+            %h4= link_to activity.title, activity_path(activity.id)
+            %p= truncate_html activity.description, length: 300
+  %ul.pager
+    %li.previous
+      = link_to_previous_page @activities, "&larr; Предыдущая новость".html_safe
+    %li.next
+      = link_to_next_page @activities, "Следующая новость &rarr;".html_safe

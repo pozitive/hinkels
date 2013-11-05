@@ -240,6 +240,7 @@ DEPENDENCIES
   haml
   jbuilder (~> 1.2)
   jquery-rails
+  kaminari
   less-rails
   pg
   rails (= 4.0.0)

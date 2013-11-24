@@ -58,7 +58,7 @@ SimpleNavigation::Configuration.run do |navigation|
       services.item :migration, 'Миграционное право', service_path(migration.id)
       services.item :tax, 'Налоговое право', service_path(tax.id)
       services.item :realestate, 'Недвижимость', service_path(realestate.id)
-      services.item :litigation, 'Судебное право', service_path(litigation.id)
+      services.item :litigation, 'Судебное представительство', service_path(litigation.id)
       services.item :labor, 'Трудовое право', service_path(labor.id)
     end
     primary.item 'Bugs', 'Мероприятия', activities_path

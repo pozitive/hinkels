@@ -1,0 +1,10 @@
+.row-fluid
+  .page-header
+    %h3 Новости & Мероприятия
+  %ul.thumbnails
+    - @activities.each do |activity|
+      %li.span6
+        .thumbnail
+          .caption
+            %h4= link_to activity.title, activity_path(activity.id)
+            %p= truncate_html activity.description, length: 300

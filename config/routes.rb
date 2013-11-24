@@ -11,6 +11,9 @@ Alam::Application.routes.draw do
   resources :services
 
   get "bereau/index"
+  post "bereau/index"
+  get "bereau/activities"
+  post "bereau/activities"
   resources :articles
 
   # The priority is based upon order of creation: first created -> highest priority.

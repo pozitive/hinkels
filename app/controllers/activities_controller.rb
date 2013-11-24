@@ -5,7 +5,7 @@ class ActivitiesController < ApplicationController
   # GET /activities
   # GET /activities.json
   def index
-    @activities = Activity.all
+    @activities = Activity.order('created_at DESC')
     @services = Service.order(:title)
     @slide = 'slide3.jpg'
   end
@@ -74,7 +74,7 @@ class ActivitiesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def activity_params
-      params.require(:activity).permit(:title, :description)
+      params.require(:activity).permit(:title, :description, :page)
     end
 
     def require_login

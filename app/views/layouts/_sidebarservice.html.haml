@@ -1,6 +1,7 @@
 .solution
   .page-header
-    %h3 Публикации
+    %h3 
+      = t('views.layout.publication')
   - Service.all.shuffle.take(3).each do |service|
     .page-header
       %h4

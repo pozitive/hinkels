@@ -1,4 +1,5 @@
 class Article < ActiveRecord::Base
+  translates :title, :description
   validates :title, :description, presence: true
 
   def self.text_search(query)

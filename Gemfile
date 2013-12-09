@@ -32,7 +32,7 @@ gem "carrierwave"
 gem 'rmagick'
 gem 'fog'
 gem 'haml'
-
+gem 'globalize', '~> 4.0.0.alpha.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

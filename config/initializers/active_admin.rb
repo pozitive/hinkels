@@ -141,6 +141,10 @@ ActiveAdmin.setup do |config|
   # Active Admin resources and pages from here.
   #
   # config.before_filter :do_something_awesome
+  config.before_filter :set_admin_locale
+    def set_admin_locale
+      I18n.locale = :ru  
+    end  
   
   
   # == Setting a Favicon

@@ -32,17 +32,16 @@ SimpleNavigation::Configuration.run do |navigation|
 
   # Define the primary navigation
 
-  aboutus = Article.find_by_title("Об организации")
-  mission = Article.find_by_title("Миссия")
-  contact = Article.find_by_title("Контакты")
-
-  intellectual = Service.find_by_title("Интеллектуальная собственность")
-  corporate = Service.find_by_title("Корпоративное право")
-  migration = Service.find_by_title("Миграционное право")
-  tax = Service.find_by_title("Налоговое право")
-  realestate = Service.find_by_title("Недвижимость")
-  litigation = Service.find_by_title("Судебное представительство")
-  labor = Service.find_by_title("Трудовое право")
+  aboutus = Article.find(22)
+  mission = Article.find(23)
+  contact = Article.find(24)
+  intellectual = Service.find(29)
+  corporate = Service.find(30)
+  migration = Service.find(31)
+  tax = Service.find(32)
+  realestate = Service.find(33)
+  litigation = Service.find(34)
+  labor = Service.find(35)
   
   
   navigation.items do |primary|

@@ -1,0 +1,23 @@
+%section#allservice.allservice
+  .page-header
+    %h3 
+      = t('views.layout.services')
+  %ul.thumbnails
+    %li.span4
+      %ul
+        - Service.all.each_with_index do |service, index|
+          - if index%3 == 0
+            %li
+              = link_to service.title, service_path(service)
+    %li.span4
+      %ul
+        - Service.all.each_with_index do |service, index|
+          - if index%3 == 1
+            %li
+              = link_to service.title, service_path(service)
+    %li.span4
+      %ul
+        - Service.all.each_with_index do |service, index|
+          - if index%3 == 2
+            %li
+              = link_to service.title, service_path(service)

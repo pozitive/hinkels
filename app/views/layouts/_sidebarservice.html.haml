@@ -1,0 +1,16 @@
+.solution
+  .page-header
+    %h3 Публикации
+  - Service.all.shuffle.take(3).each do |service|
+    .page-header
+      %h4
+        %a 
+          %em
+            %i.icon-play
+          %u
+            = link_to service.title, service_path(service)
+      %div
+        = truncate_html(service.description.html_safe, length: 150)
+      %div
+        = link_to t('views.layout.read_more'), service_path(service), :class=>'learn'
+        %i.icon-chevron-right

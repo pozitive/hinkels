@@ -29,7 +29,7 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'active_admin_editor', github: 'ejholmes/active_admin_editor'
 gem "kaminari"
 gem "carrierwave"
-gem "rmagick"
+gem 'rmagick'
 gem 'fog'
 gem 'haml'
 

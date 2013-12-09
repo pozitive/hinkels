@@ -1,0 +1,17 @@
+-if notice
+  %p#notice 
+    = notice
+
+.firstpage
+  .page-header
+    %h3 
+      = t("views.bereau.title")
+  %p 
+    %strong Hinkels Consulting &mdash;
+    = t("views.bereau.p1")
+  %p 
+    = t("views.bereau.p2")
+  %p
+    = t("views.bereau.p3")
+  #news.news
+    = render "news"

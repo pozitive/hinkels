@@ -20,4 +20,31 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  menu:
+    about_organization: 'About'
+    about_us: 'About us'
+    mission: 'Mission'
+    services: 'Services'
+    intellectual: 'Intellectual property'
+    corporate: 'Corporate law'
+    migration: 'Migration law'
+    tax: 'Taxes'
+    realestate: 'Real estate'
+    litigation: 'Litigation & Arbitration'
+    labor: 'Labor law'
+    activities: 'Activities'
+    publication: 'News'
+
+  views:
+    layout:
+      search: "Search"
+      slogan: "Start, maintenance and protection of business in Russia"
+      read_more: "Read more"
+      services: "Services"
+      phone: 'Phone'
+    bereau:
+      title: "About us"
+      p1: "Hinkels Consulting - an independent law firm, the legal adviser for Russian and foreign companies operating in the Russian market."
+      p2: "Hinkels Consultinglawyers have successful experience in the following areas: migration and labor law, corporate law, real estate, debt collection, dispute resolution, tax and intellectual property."
+      p3: "Customers choose Hinkels Consulting as their legal adviser, as they are confident in qualification of our lawyers, which is based on a thorough knowledge of Russian law, a unique experience and western standards of service."
+      news_activities: "News & Activities"

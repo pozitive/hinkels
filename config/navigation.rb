@@ -48,21 +48,21 @@ SimpleNavigation::Configuration.run do |navigation|
   navigation.items do |primary|
     primary.dom_id = "primary-menu"
     primary.dom_class = "nav nav-tabs"
-    primary.item :about, 'О компании', article_path(aboutus.id) do |about|
-      about.item :aboutus, 'О нас', article_path(aboutus.id)
-      about.item :mission, 'Миссия', article_path(mission.id)      
+    primary.item :about,  t('menu.about_organization'), article_path(aboutus.id) do |about|
+      about.item :aboutus, t('menu.about_us'), article_path(aboutus.id)
+      about.item :mission, t('menu.mission'), article_path(mission.id)      
     end    
-    primary.item :services, 'Услуги', services_path do |services|
-      services.item :intellectual, 'Интелектуальное право', service_path(intellectual.id)
-      services.item :corporate, 'Корпоративное право', service_path(corporate.id)
-      services.item :migration, 'Миграционное право', service_path(migration.id)
-      services.item :tax, 'Налоговое право', service_path(tax.id)
-      services.item :realestate, 'Недвижимость', service_path(realestate.id)
-      services.item :litigation, 'Судебное представительство', service_path(litigation.id)
-      services.item :labor, 'Трудовое право', service_path(labor.id)
+    primary.item :services, t('menu.services'), services_path do |services|
+      services.item :intellectual,  t('menu.intellectual'), service_path(intellectual.id)
+      services.item :corporate, t('menu.corporate'), service_path(corporate.id)
+      services.item :migration, t('menu.migration'), service_path(migration.id)
+      services.item :tax, t('menu.tax'), service_path(tax.id)
+      services.item :realestate, t('menu.realestate'), service_path(realestate.id)
+      services.item :litigation, t('menu.litigation'), service_path(litigation.id)
+      services.item :labor, t('menu.labor'), service_path(labor.id)
     end
-    primary.item 'Bugs', 'Мероприятия', activities_path
-    primary.item :publication, 'Новости', publications_path
+    primary.item 'Bugs', t('menu.activities'), activities_path
+    primary.item :publication, t('menu.publication'), publications_path
     primary.item :contact, contact.title, article_path(contact.id)
     
     # Add an item to the primary navigation. The following params apply:

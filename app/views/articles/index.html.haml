@@ -1,0 +1,15 @@
+.page-header
+  %h3
+    = t('articles')
+#articles
+  - @articles.try(:each) do |article|
+    %section.list
+      .page-header
+        %h4
+          = link_to article.title, article
+      .content
+        = truncate_html article.description, length: 300
+        %small
+          (
+          = article.created_at
+          )

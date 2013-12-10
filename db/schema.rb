@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131209085845) do
+ActiveRecord::Schema.define(version: 20131210012649) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,18 @@ ActiveRecord::Schema.define(version: 20131209085845) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "activity_translations", force: true do |t|
+    t.integer  "activity_id", null: false
+    t.string   "locale",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+  end
+
+  add_index "activity_translations", ["activity_id"], name: "index_activity_translations_on_activity_id", using: :btree
+  add_index "activity_translations", ["locale"], name: "index_activity_translations_on_locale", using: :btree
 
   create_table "admin_users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -75,12 +87,36 @@ ActiveRecord::Schema.define(version: 20131209085845) do
     t.datetime "updated_at"
   end
 
+  create_table "publication_translations", force: true do |t|
+    t.integer  "publication_id", null: false
+    t.string   "locale",         null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+  end
+
+  add_index "publication_translations", ["locale"], name: "index_publication_translations_on_locale", using: :btree
+  add_index "publication_translations", ["publication_id"], name: "index_publication_translations_on_publication_id", using: :btree
+
   create_table "publications", force: true do |t|
     t.string   "title"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "service_translations", force: true do |t|
+    t.integer  "service_id",  null: false
+    t.string   "locale",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+  end
+
+  add_index "service_translations", ["locale"], name: "index_service_translations_on_locale", using: :btree
+  add_index "service_translations", ["service_id"], name: "index_service_translations_on_service_id", using: :btree
 
   create_table "services", force: true do |t|
     t.string   "title"

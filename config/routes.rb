@@ -13,14 +13,15 @@ Alam::Application.routes.draw do
     get "bereau/activities"
     post "bereau/activities"
 
-    ActiveAdmin.routes(self)  
-    devise_for :admin_users, ActiveAdmin::Devise.config
-
+ 
     # root 'welcome#index'
     root to: "bereau#index", as: 'bereau'
   end
 
+  ActiveAdmin.routes(self)  
+  devise_for :admin_users, ActiveAdmin::Devise.config
 
+  
   get '*path', to: redirect {|params| "/ru/#{params[:path]}"}, constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
   get '', to: redirect("/#{I18n.default_locale}"), via: :all
 

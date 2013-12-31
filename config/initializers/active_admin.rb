@@ -141,12 +141,8 @@ ActiveAdmin.setup do |config|
   # Active Admin resources and pages from here.
   #
   # config.before_filter :do_something_awesome
-  config.before_filter :set_admin_locale
-    def set_admin_locale
-      I18n.locale = :ru  
-    end  
-  
-  
+  # config.before_filter :set_admin_locale
+
   # == Setting a Favicon
   #
   # config.favicon = '/assets/favicon.ico'
@@ -198,6 +194,19 @@ ActiveAdmin.setup do |config|
   #     end
   #   end
 
+  config.namespace :admin do |admin|
+    admin.build_menu :utility_navigation do |menu|
+      menu.add :label => "Languages" do |lang|
+        lang.add :label => "English",:url => proc { url_for(:locale => 'en') }, id: 'i18n-en', :priority => 1
+        lang.add :label => "Russian",:url => proc {  url_for(:locale => 'ru') }, id: 'i18n-ru', :priority => 2
+      end
+      menu.add :label => proc{ display_name current_active_admin_user},
+      :url => '#',
+      :id => 'current_user',
+      :if => proc{ current_active_admin_user? }
+      admin.add_logout_button_to_menu menu
+    end
+  end
 
   # == Download Links
   #

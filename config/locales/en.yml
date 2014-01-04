@@ -20,6 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  # Universal
+  activities: 'Activities'
+  news: 'News'
+  articles: 'Articles'
   menu:
     about_organization: 'About'
     about_us: 'About us'

@@ -47,18 +47,18 @@ SimpleNavigation::Configuration.run do |navigation|
   navigation.items do |primary|
     primary.dom_id = "primary-menu"
     primary.dom_class = "nav nav-tabs"
-    primary.item :about,  t('menu.about_organization'), article_path(aboutus.id) do |about|
-      about.item :aboutus, t('menu.about_us'), article_path(aboutus.id)
-      about.item :mission, t('menu.mission'), article_path(mission.id)      
+    primary.item :about,  aboutus.title, article_path(aboutus) do |about|
+      about.item :aboutus, aboutus.title, article_path(aboutus)
+      about.item :mission, mission.title, article_path(mission)      
     end    
     primary.item :services, t('menu.services'), services_path do |services|
-      services.item :intellectual,  t('menu.intellectual'), service_path(intellectual.id)
-      services.item :corporate, t('menu.corporate'), service_path(corporate.id)
-      services.item :migration, t('menu.migration'), service_path(migration.id)
-      services.item :tax, t('menu.tax'), service_path(tax.id)
-      services.item :realestate, t('menu.realestate'), service_path(realestate.id)
-      services.item :litigation, t('menu.litigation'), service_path(litigation.id)
-      services.item :labor, t('menu.labor'), service_path(labor.id)
+      services.item :intellectual,  intellectual.title, service_path(intellectual)
+      services.item :corporate, corporate.title, service_path(corporate)
+      services.item :migration, migration.title, service_path(migration)
+      services.item :tax, tax.title, service_path(tax)
+      services.item :realestate, realestate.title, service_path(realestate)
+      services.item :litigation, litigation.title, service_path(litigation)
+      services.item :labor, labor.title, service_path(labor)
     end
     primary.item 'Bugs', t('menu.activities'), activities_path
     primary.item :publication, t('menu.publication'), publications_path

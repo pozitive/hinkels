@@ -33,6 +33,7 @@ gem 'rmagick'
 gem 'fog'
 gem 'haml'
 gem 'globalize', '~> 4.0.0.alpha.2'
+gem 'friendly_id', '~> 5.0.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

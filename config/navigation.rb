@@ -62,7 +62,7 @@ SimpleNavigation::Configuration.run do |navigation|
     end
     primary.item 'Bugs', t('menu.activities'), activities_path
     primary.item :publication, t('menu.publication'), publications_path
-    primary.item :contact, contact.title, article_path(contact.id)
+    primary.item :contact, contact.title, article_path(contact)
     
     # Add an item to the primary navigation. The following params apply:
     # key - a symbol which uniquely defines your navigation item in the scope of the primary_navigation

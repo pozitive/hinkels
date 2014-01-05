@@ -1,5 +1,5 @@
 Alam::Application.routes.draw do
-  scope ":locale", locale: /en|ru/ do
+scope "(:locale)", :constraints => {:locale => /#{I18n.available_locales.join("|")}/} do
     get "search/index"
 
     resources :publications
@@ -22,7 +22,7 @@ Alam::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   
-  get '*path', to: redirect {|params| "/ru/#{params[:path]}"}, constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
-  get '', to: redirect("/#{I18n.default_locale}"), via: :all
+  # get '*path', to: redirect {|params| "/ru/#{params[:path]}"}, constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
+  # get '', to: redirect("/#{I18n.default_locale}"), via: :all
 
 end

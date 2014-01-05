@@ -2,6 +2,8 @@
   .row
     .span12
       %p.languages.text-right
+        = link_to_unless_current "Chinese", locale: "zh-CN"
+        |
         = link_to_unless_current "English", locale: "en"
         |
         = link_to_unless_current "Русский", locale: "ru"

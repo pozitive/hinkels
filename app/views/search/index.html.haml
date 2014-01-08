@@ -1,0 +1,20 @@
+.page-header
+  %h3
+    = t('search')
+  = form_tag search_index_path, method: :get do
+    %fieldset
+      = text_field_tag :query, params[:query]
+      = submit_tag t('search'), name: nil, :class => 'btn btn-primary'
+
+#articles
+  - @search.try(:each) do |article|
+    %section.list
+      .page-header
+        %h4
+          = link_to article.title, article
+        .content
+          = truncate_html article.description, length: 300
+          %small
+            = article.created_at
+
+

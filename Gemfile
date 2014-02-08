@@ -20,8 +20,8 @@ end
 
 gem "twitter-bootstrap-rails"
 gem "less-rails"
-gem "simple-navigation"
-gem 'simple-navigation-bootstrap'
+# gem "simple-navigation"
+# gem 'simple-navigation-bootstrap'
 gem 'truncate_html'
 gem 'unicorn'
 gem 'devise'

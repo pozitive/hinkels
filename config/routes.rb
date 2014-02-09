@@ -3,9 +3,7 @@ scope "(:locale)", :constraints => {:locale => /#{I18n.available_locales.join("|
     get "search/index"
 
     resources :publications
-
     resources :activities
-
     resources :services
     resources :articles
     get "bereau/index"

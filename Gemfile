@@ -18,10 +18,9 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
-gem "twitter-bootstrap-rails"
-gem "less-rails"
-# gem "simple-navigation"
-# gem 'simple-navigation-bootstrap'
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'ancestry'
 gem 'truncate_html'
 gem 'unicorn'
 gem 'devise'

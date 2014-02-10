@@ -21,6 +21,11 @@
 
 en:
   # Universal
+  Please: 'Please'
+  Title:  'Title'
+  Description: 'Description'
+  Menu: 'Menu'
+  Weight: 'Weight'
   activities: 'Activities'
   news: 'News'
   articles: 'Articles'

@@ -1,6 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
-  before_filter :require_login, only: [:index, :edit, :update, :destroy, :create]
+  before_filter :require_login, only: [:edit, :update, :destroy, :create]
+  before_filter :authenticate_admin_user!, only: [:index]
   
   # GET /articles
   # GET /articles.json
@@ -72,7 +73,7 @@ class ArticlesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def article_params
-      params.require(:article).permit(:title, :description)
+      params.require(:article).permit(:title, :description, :parent_id, :weight)
     end
     
     def require_login

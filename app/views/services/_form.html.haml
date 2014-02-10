@@ -1,17 +1,11 @@
 - if admin_user_signed_in?
-  = form_for @article, :html => { class: 'form' } do |f|
+  = form_for @service, :html => { class: 'form' } do |f|
     .form-group
       = f.label :title, t('Title')
       = f.text_field :title, class: 'form-control span12', placeholder: "#{t 'Title'}"
     .form-group
       = f.label :description, t('Description')
       = f.text_area :description, as: :html_editor, class: 'text_field span12', placeholder: "#{t 'Description'}"
-    .form-group
-      = f.label :parent_id, t('Menu')
-      = f.collection_select :parent_id, Article.order(:title), :id, :title, include_blank: true
-    .form-group
-      = f.label :weight, t('Weight')
-      = f.text_field :weight, class: 'form-control', placeholder: "#{t 'Weight'}"
     .form-actions
       = f.submit nil, :class => 'btn btn-primary'
       = link_to t('.cancel', :default => t("helpers.links.cancel")), articles_path, :class => 'btn'

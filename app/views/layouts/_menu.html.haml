@@ -16,5 +16,32 @@
             = text_field_tag :query, params[:query], :placeholder => t("views.layout.search")
     .span8
       -# = render_navigation :expand_all => true, :renderer => :bootstrap
+      %ul#primary-menu.nav.nav-tabs
+        - Article.order(weight: :asc).roots.each do |article|
+          - if article.children.present?
+            %li{class: "dropdown"}
+              %a.dropdown-toggle{:href => "#", "role" => "button", "data-toggle" => "dropdown", "data-target" => "#"} 
+                = article.title
+                %b.caret              
+              %ul{class: "dropdown-menu"}
+                - article.children.order(weight: :asc).each do |children|
+                  %li= link_to children.title, children
+
+        %li{class: "dropdown"}
+          %a.dropdown-toggle{:href => "#", "role" => "button", "data-toggle" => "dropdown", "data-target" => "#"} 
+            = t 'Services'
+            %b.caret              
+          %ul{class: "dropdown-menu"}
+            - Service.all.each do |service|
+              %li= link_to service.title, service
+
+        %li= link_to t('Activities'), activities_path
+        %li= link_to t('News'), publications_path
+
+        - Article.order(weight: :asc).roots.each do |article|
+          - unless article.children.present?
+            %li= link_to article.title, article
+            
+
       %h2.slogan
         = t "views.layout.slogan"

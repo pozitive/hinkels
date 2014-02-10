@@ -1,0 +1,26 @@
+.page-header
+  %h3
+    = t('services')
+#services
+  - @services.try(:each) do |service|
+    %section.list
+      .page-header
+        %h4
+          = link_to service.title, service
+      .content
+        = truncate_html service.description, length: 300
+        %small
+          (
+          = service.created_at
+          )
+        - if current_admin_user
+          = link_to 'Show', service
+          |
+          = link_to 'Edit', edit_service_path(service)
+          |
+          = link_to 'Destroy', service, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Service', new_service_path, class: "btn btn-primary" if current_admin_user
+

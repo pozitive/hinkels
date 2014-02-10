@@ -13,3 +13,16 @@
           (
           = article.created_at
           )
+        - if current_admin_user
+          = '|' if article.parent_id?
+          = article.parent_id 
+          |
+          = link_to 'Show', article
+          |
+          = link_to 'Edit', edit_article_path(article)
+          |
+          = link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Article', new_article_path, class: "btn btn-primary" if current_admin_user

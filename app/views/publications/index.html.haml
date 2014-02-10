@@ -2,12 +2,23 @@
   %h3
     = t('news')
 
-%div
-  - @publications.each do |publication|
+- @publications.each do |publication|
+  %div
     %header
       %h4{clas: "page-header"}=  link_to publication.title, publication_path(publication.id) 
     %p{class: "content"}= truncate_html publication.description.html_safe, length: 200
     %aside
       %small{class: "pull-right"}= publication.created_at.strftime('%d.%m.%Y')
-%div{class: "clearfix"}
-%hr
+    - if current_admin_user
+      |
+      = link_to 'Show', publication
+      |
+      = link_to 'Edit', edit_publication_path(publication)
+      |
+      = link_to 'Destroy', publication, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+  %div{class: "clearfix"}
+  %hr
+
+%br
+= link_to 'New publication', new_publication_path, class: "btn btn-primary" if current_admin_user

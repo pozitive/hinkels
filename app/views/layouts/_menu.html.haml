@@ -29,14 +29,14 @@
 
         %li{class: "dropdown"}
           %a.dropdown-toggle{:href => "#", "role" => "button", "data-toggle" => "dropdown", "data-target" => "#"} 
-            = t 'Services'
+            = t 'menu.services'
             %b.caret              
           %ul{class: "dropdown-menu"}
             - Service.all.each do |service|
               %li= link_to service.title, service
 
-        %li= link_to t('Activities'), activities_path
-        %li= link_to t('News'), publications_path
+        %li= link_to t('activities'), activities_path
+        %li= link_to t('news'), publications_path
 
         - Article.order(weight: :asc).roots.each do |article|
           - unless article.children.present?

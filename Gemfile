@@ -28,11 +28,12 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'active_admin_editor', github: 'ejholmes/active_admin_editor'
 gem "kaminari"
 gem "carrierwave"
-gem 'rmagick'
+gem 'mini_magick'
 gem 'fog'
 gem 'haml'
 gem 'globalize', '~> 4.0.0.alpha.2'
 gem 'friendly_id', '~> 5.0.0'
+gem 'yaml_db'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

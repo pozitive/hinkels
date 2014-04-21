@@ -22,7 +22,6 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'ancestry'
 gem 'truncate_html'
-gem 'unicorn'
 gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'active_admin_editor', github: 'ejholmes/active_admin_editor'
@@ -34,9 +33,11 @@ gem 'haml'
 gem 'globalize', '~> 4.0.0.alpha.2'
 gem 'friendly_id', '~> 5.0.0'
 gem 'yaml_db'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
+gem 'unicorn' # Use unicorn as the app server
+gem 'capistrano', group: :development # Use Capistrano for deployment
+gem 'capistrano-rbenv'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]

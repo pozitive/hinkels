@@ -11,7 +11,7 @@ server '109.120.166.48', roles: [:web, :app, :db, :workers], ssh_options: {
 }
 
 set :application, 'hinkels'
-set :repo_url, 'git@github.com:hinkels/hinkels.git'
+set :repo_url, 'git@github.com:pozitive/hinkels.git'
 
 set :default_environment, { 'PATH' => '$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH' }
 set :rbenv_type, :user # or :system, depends on your rbenv setup

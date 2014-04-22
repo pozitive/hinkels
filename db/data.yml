@@ -1,0 +1,1124 @@
+
+---
+activities:
+  columns:
+  - id
+  - title
+  - description
+  - created_at
+  - updated_at
+  records: 
+  - - '4'
+    - "第二个莫斯科国际论坛的外国投资"
+    - "<p>专家Hinkels律师事务所参加了第二届莫斯科国际论坛的外国投资，其中发生10月23日至24日在莫斯科世界贸易中心。</p>\r\n<p>其中的参与者：业务代表，区域和联邦当局，最大的金融机构。</p>\r\n<p>该论坛的主要目的是展示在莫斯科和俄罗斯，公共项目的开发区域投资机会
+      - 私营伙伴关系。</p>\r\n<p>本次论坛参加对我们来说是很重要的，因为Hinkels Consulting的主要焦点是跟踪在俄罗斯的外国投资。创建一个讨论的平台，帮助学员看到在俄罗斯投资环境的现状。</p>\r\n"
+    - '2013-10-27 09:38:25.568879'
+    - '2014-01-05 06:33:27.621075'
+  - - '5'
+    - "圆桌“劳务移民及其对经济的影响。”"
+    - "<p>法律部Hinkels Consulting 主管Dmitry Ivanov出席了与俄罗斯联邦移民局 主管Konstantin Romodanovsky
+      会议表示2013年7月3日举办的经理人协会（AMR）。</p>\r\n<p>该事件引发尤其是备受关注的问题：调节迁移流动，移民政策概念的实施，保证了员工的需求。</p>\r\n<p>移民法的律师事务所
+      Hinkels Consulting的工作重点之一，我们清楚地监视不仅不断变化的实践，还积极参与有关雇用外国工人到俄罗斯的领土变化的讨论。</p>\r\n"
+    - '2013-10-27 10:48:23.909149'
+    - '2014-01-05 06:32:50.47511'
+  - - '6'
+    - "国际展览“世博2013律师”"
+    - "国际展览“世博2013律师”\r\n从10月10日至13日在“索科尔尼基”举办的首个展览国际法“律师 - 博览2013”。\r\n事件的业务计划包括在“一般法律服务，在俄罗斯发展”的会议，出席由律师事务所Hinkels
+      Consulting公司的代表。\r\n与从法律外包和建立伙伴关系法律实践中当前主题的同事沟通可以让我们了解在法律服务市场的情况，并寻找新的发展机遇。\r\n"
+    - '2013-10-27 18:22:42.418713'
+    - '2014-01-05 06:32:14.366284'
+  - - '7'
+    - "第五届论坛“印度 - 俄罗斯商务对话”。"
+    - "<p>11月19日在莫斯科举行的第五届论坛“印度 - 俄罗斯商务对话”。</p>\r\n<p>活动是由印度工商联盟（IBA）在印度的大使馆和商务委员会与印度合作（VSSI）在RF
+      CCI。</p>\r\n<p>论坛嘉宾：Ajay Malhotra - 在俄罗斯联邦印度驻，Sergei Cheremin - 对外经济和国际关系莫斯科主管，Sergei
+      Katyrin - 商会会长。</p>\r\n<p>Hinkels Consulting专家根据该方案专举行会议讨论在俄罗斯和印度，投资保护，俄印经贸关系的发展做业务的问题。</p>\r\n"
+    - '2013-11-24 11:37:58.511908'
+    - '2014-01-05 06:30:51.873618'
+
+---
+activity_translations:
+  columns:
+  - id
+  - activity_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  - description
+  records: 
+  - - '1'
+    - '4'
+    - ru
+    - '2013-12-10 02:20:26.498608'
+    - '2013-12-10 02:20:26.498608'
+    - "Второй Московский международный форум по иностранным инвестициям."
+    - "<div>Специалисты юридической фирмы Hinkels приняли участие в работе Второго
+      Московского международного форума по иностранным инвестициям, который прошел
+      23 - 24 октября в Московском Центре международной торговли.</div><div><br></div><div>Среди
+      участников форума: представители бизнеса, региональной и федеральной власти,
+      крупнейших финансовых учреждений.</div><div>Основной целью форума является демонстрация
+      инвестиционных возможностей Москвы и регионов России, развитие проектов государственно
+      - частного партнерства.</div><div><br></div><div>Участие в этом форуме имеет
+      важное значение, так как основным направлением работы Hinkels Consulting является
+      сопровождение иностранных инвестиций на территории России.&nbsp;</div><div>Созданная
+      площадка для дискуссий помогла участникам увидеть актуальную ситуацию в инвестиционном
+      климате России.</div><br>"
+  - - '2'
+    - '5'
+    - ru
+    - '2013-12-10 02:20:26.507994'
+    - '2013-12-10 02:20:26.507994'
+    - "Круглый стол «Трудовая миграция и ее влияние на экономику страны»."
+    - "Руководитель юридического отдела Hinkels Consulting Дмитрий Иванов&nbsp;принял
+      участие во встрече с Главой ФМС России Константином Ромодановским, которую 03
+      июля 2013 года&nbsp;организовала&nbsp;<span>Ассоциация Менеджеров (АМР).<br><br>На
+      мероприятии были подняты особенно актуальные темы: регулирование миграционных
+      потоков, реализация концепции миграционной политики, обеспечение потребности
+      экономики в трудовых ресурсах.<br><br>Миграционное право является одним из приоритетных
+      направлений деятельности юридической фирмы Hinkels Consulting и мы четко отслеживаем
+      не только постоянно изменяющуюся практику, но и активно участвуем в обсуждении
+      изменений, касающихся привлечения иностранных работников на территорию России.</span>"
+  - - '3'
+    - '6'
+    - ru
+    - '2013-12-10 02:20:26.513946'
+    - '2013-12-10 02:20:26.513946'
+    - "Международная выставка \"Юрист-Экспо 2013\""
+    - "С 10 по 13 октября в КВЦ \"Сокольники\" состоялась первая международная юридическая
+      выставка \"Юрист - Экспо 2013\". <br><br>Деловая программа мероприятия включала
+      в себя конференцию \"Развитие общих юридических услуг в России\", в которой
+      приняли участие представители юридической фирмы Hinkels Consulting.<br><br>Общение
+      с коллегами на актуальные темы из юридической практики, по вопросам юридического
+      аутсорсинга и выстраивание партнерских отношений позволяет нам понимать ситуацию
+      на юридическом рынке и находить новые возможности для развития."
+  - - '4'
+    - '7'
+    - ru
+    - '2013-12-10 02:20:26.52036'
+    - '2013-12-10 02:20:26.52036'
+    - "Пятый Форум «Индия-Россия Бизнес Диалог»."
+    - "<div>19 ноября в Москве состоялся Пятый Форум «Индия-Россия Бизнес Диалог».</div><div><br></div><div>Организаторами
+      мероприятия выступили Индийский Бизнес-Альянс (IBA) при Посольстве Индии и Деловой
+      Совет по сотрудничеству с Индией&nbsp;</div><div>(ВССI) при ТПП РФ.</div><div><br></div><div>Среди
+      гостей Форума Аджай Малхотра - посол Индии в Российской Федерации, Сергей Черёмин
+      - руководитель департамента&nbsp;</div><div>внешнеэкономических и международных
+      связей Москвы, Сергей Катырин - президент Торгово-промышленной палаты.</div><div><br></div><div>Специалисты
+      Hinkels Consulting в рамках программы провели дискуссии по вопросам ведения
+      бизнеса в России и Индии,&nbsp;</div><div>защите инвестиций, развития российско-индийских
+      торговых отношений.</div>"
+  - - '5'
+    - '4'
+    - en
+    - '2013-12-12 06:31:59.982547'
+    - '2013-12-12 06:35:06.991064'
+    - Second Moscow International Forum on foreign investment.
+    - "<p>The specialists of Hinkels Consulting  Law  Firm took part in the Second
+      Moscow International Forum on Foreign Investment, which took place on October
+      23 - 24 at the Moscow World Trade Center.</p>\r\n<p>Among the participants were:
+      representatives of business, regional and federal authorities, the largest financial
+      institutions.</p>\r\n<p>The main purpose of the forum is to demonstrate investment
+      opportunities in Moscow and regions of Russia, the development of projects of
+      public - private partnerships.</p>\r\n<p>Participation in this forum is important,
+      as the main focus of the Hinkels Consulting is supporting of foreign investments
+      in Russia. The platform which was created for discussions helped participants
+      to see the current situation in the investment climate in Russia .</p>\r\n"
+  - - '6'
+    - '5'
+    - en
+    - '2013-12-12 06:32:46.897624'
+    - '2013-12-12 06:32:46.897624'
+    - Round table «Labor migration and its impact on the economy of our country»
+    - "<p>Head of Legal department of Hinkels Consulting Law Firm took part in the
+      meeting with the Head of Russian Federal Migration Service Konstantin Romodanovsky.
+      This meeting was organized in July 3, 2013 by the Association of Managers (AMR
+      ).</p>\r\n<p>The event raised especially main issues: regulation of migration,
+      the implementation of the concept of migration policy, ensuring the needs of
+      a workforce.</p>\r\n<p>Immigration law is one of the priorities of Hinkels Consulting
+      Law Firm and we clearly monitor not only constantly changing practice, but also
+      often participate in the discussion of changes concerning employment of foreign
+      nationals in  Russia .</p>"
+  - - '7'
+    - '6'
+    - en
+    - '2013-12-12 06:33:56.545462'
+    - '2013-12-12 06:33:56.545462'
+    - International Exhibition «Lawyer-Expo 2013»
+    - "<p>The first international legal exhibition \"Lawyer - Expo 2013” was held
+      from 10 to 13 October in «Sokolniki». Business program of the event included
+      a conference on «Development of general legal services in Russia», which was
+      attended by representatives of the Hinkels Consulting Law Firm.</p>\r\n<p>Communication
+      with colleagues on current topics from legal practice concerning legal outsourcing
+      and partnership allows us to understand the situation on legal market and find
+      new opportunities for development.</p>\r\n"
+  - - '8'
+    - '7'
+    - en
+    - '2013-12-12 06:34:32.722495'
+    - '2013-12-12 06:34:32.722495'
+    - 'The Fifth Forum "India – Russia: Business Dialogue».'
+    - "<p>The Fifth Forum \"India - Russia Business Dialogue» took place in Moscow,
+      November 19, 2013.</p>\r\n<p>The event was organized by the Indian Business
+      Alliance (IBA) affiliated with the Embassy of India and the Business Council
+      for Cooperation with India (BCCI) affiliated with the RF CCI. </p>\r\n<p>Among
+      the guests of the Forum were: Ajai Malhotra - Indian Ambassador in Russia; Sergey
+      Cheremin - Head of the Department for External Economic and International Relations
+      of Moscow; Sergei Katyrin - President of the Chamber of Commerce.</p>\r\n<p>Specialists
+      of the Hinkels Consulting Law Firm had a discussion on doing business in Russia
+      and India, investment protection, the development of Russian-Indian trade relations.</p>\r\n"
+  - - '9'
+    - '7'
+    - zh-CN
+    - '2014-01-05 06:30:51.883778'
+    - '2014-01-05 06:30:51.883778'
+    - "第五届论坛“印度 - 俄罗斯商务对话”。"
+    - "<p>11月19日在莫斯科举行的第五届论坛“印度 - 俄罗斯商务对话”。</p>\r\n<p>活动是由印度工商联盟（IBA）在印度的大使馆和商务委员会与印度合作（VSSI）在RF
+      CCI。</p>\r\n<p>论坛嘉宾：Ajay Malhotra - 在俄罗斯联邦印度驻，Sergei Cheremin - 对外经济和国际关系莫斯科主管，Sergei
+      Katyrin - 商会会长。</p>\r\n<p>Hinkels Consulting专家根据该方案专举行会议讨论在俄罗斯和印度，投资保护，俄印经贸关系的发展做业务的问题。</p>\r\n"
+  - - '10'
+    - '6'
+    - zh-CN
+    - '2014-01-05 06:32:14.373318'
+    - '2014-01-05 06:32:14.373318'
+    - "国际展览“世博2013律师”"
+    - "国际展览“世博2013律师”\r\n从10月10日至13日在“索科尔尼基”举办的首个展览国际法“律师 - 博览2013”。\r\n事件的业务计划包括在“一般法律服务，在俄罗斯发展”的会议，出席由律师事务所Hinkels
+      Consulting公司的代表。\r\n与从法律外包和建立伙伴关系法律实践中当前主题的同事沟通可以让我们了解在法律服务市场的情况，并寻找新的发展机遇。\r\n"
+  - - '11'
+    - '5'
+    - zh-CN
+    - '2014-01-05 06:32:50.480946'
+    - '2014-01-05 06:32:50.480946'
+    - "圆桌“劳务移民及其对经济的影响。”"
+    - "<p>法律部Hinkels Consulting 主管Dmitry Ivanov出席了与俄罗斯联邦移民局 主管Konstantin Romodanovsky
+      会议表示2013年7月3日举办的经理人协会（AMR）。</p>\r\n<p>该事件引发尤其是备受关注的问题：调节迁移流动，移民政策概念的实施，保证了员工的需求。</p>\r\n<p>移民法的律师事务所
+      Hinkels Consulting的工作重点之一，我们清楚地监视不仅不断变化的实践，还积极参与有关雇用外国工人到俄罗斯的领土变化的讨论。</p>\r\n"
+  - - '12'
+    - '4'
+    - zh-CN
+    - '2014-01-05 06:33:27.632049'
+    - '2014-01-05 06:33:27.632049'
+    - "第二个莫斯科国际论坛的外国投资"
+    - "<p>专家Hinkels律师事务所参加了第二届莫斯科国际论坛的外国投资，其中发生10月23日至24日在莫斯科世界贸易中心。</p>\r\n<p>其中的参与者：业务代表，区域和联邦当局，最大的金融机构。</p>\r\n<p>该论坛的主要目的是展示在莫斯科和俄罗斯，公共项目的开发区域投资机会
+      - 私营伙伴关系。</p>\r\n<p>本次论坛参加对我们来说是很重要的，因为Hinkels Consulting的主要焦点是跟踪在俄罗斯的外国投资。创建一个讨论的平台，帮助学员看到在俄罗斯投资环境的现状。</p>\r\n"
+
+---
+admin_users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - '2'
+    - china@pozitive.biz
+    - "$2a$10$TcOzZZpqiDS0uH.d.I6Sk.lD7akU77Bwymz3Sl9RSPAJLjlE5wzIe"
+    - 05897797fa8b4cb31d338d4eb6a2a2438222c907a5f22ef106283ddc0535585b
+    - '2013-10-27 06:22:09.37806'
+    - 
+    - '21'
+    - '2014-03-10 07:44:33.298202'
+    - '2014-03-10 07:43:31.20865'
+    - 175.100.84.93
+    - 175.100.84.93
+    - '2013-10-03 13:04:17.663386'
+    - '2014-03-10 07:44:33.299692'
+  - - '3'
+    - chinapozitive@gmail.com
+    - "$2a$10$uNNk2eji25T4hv3OmDmnruexZ.QfAENpEhCInLexwUxTXYTkISqJW"
+    - 
+    - 
+    - 
+    - '0'
+    - 
+    - 
+    - 
+    - 
+    - '2013-10-07 01:42:02.400612'
+    - '2013-10-07 01:42:02.400612'
+  - - '4'
+    - mkuzmichev@gmail.com
+    - "$2a$10$cTiysRPkZNZX.JDOFJ7zxu3AWCyyH6zGwB2MYKjLZ.iMDTddq/7rS"
+    - 
+    - 
+    - 
+    - '31'
+    - '2014-03-27 21:49:53.917931'
+    - '2014-02-19 18:35:36.243249'
+    - 92.243.183.12
+    - 109.188.126.207
+    - '2013-10-07 01:45:53.652921'
+    - '2014-03-27 21:49:53.924407'
+
+---
+article_translations:
+  columns:
+  - id
+  - article_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  - description
+  records: 
+  - - '1'
+    - '22'
+    - ru
+    - '2013-12-09 10:11:08.894378'
+    - '2014-01-05 13:38:54.431993'
+    - "О нас"
+    - "<p><strong>Hinkels Consulting</strong> — независимая юридическая фирма, являющаяся
+      правовым советником для российских и иностранных компаний, работающих на российском
+      рынке. <p>Юристы Hinkels имеют успешный опыт работы в следующих направлениях
+      деятельности: миграционное и трудовое право, корпоративное право, недвижимость,
+      взыскание задолженности, разрешение споров, налоги и интеллектуальная собственность.</p><p>Клиенты
+      выбирают Hinkels в качестве своего правового консультанта, так как они уверены
+      в квалификации юристов, которая основывается на глубоком знании российского
+      законодательства, уникальном опыте работы и западных стандартах предоставления
+      услуг.</p><p>Услуги:</p><ul><li>Корпоративное право</li><li>Миграционное право</li><li>Недвижимость</li><li>Интеллектуальная
+      собственность</li><li>Трудовое право</li><li>Представительство в суде</li><li>Налоги</li></ul>"
+  - - '2'
+    - '23'
+    - ru
+    - '2013-12-09 10:11:08.905512'
+    - '2013-12-09 10:11:08.905512'
+    - "Миссия"
+    - "<p>Наша миссия – быть надежной юридической опорой для среднего и крупного бизнеса,
+      поэтому мы стремимся быть экспертами в каждой из областей своей практики и предоставлять
+      только качественные услуги.</p><p>Западная корпоративная культура, близкая нашим
+      клиентам, - вот что отличает нас от других. В рамках этой культуры все наши
+      сотрудники придерживаются следующих принципов:</p><div>Профессионализм<div>Юридическая
+      фирма Hinkels Consulting&nbsp;объединяет только лучших специалистов в своих
+      областях. Легко ориентируясь в актуальных изменениях законодательства и эффективных
+      практических приёмах, наши эксперты решают самые сложные вопросы наших клиентов.
+      Это позволяет нам оставаться в числе лидеров российского юридического рынка.</div>Лидерство<div>Амбициозность,
+      нацеленность на постоянный рост, стремление быть лучшими – основные качества,
+      свойственные нашей фирме.</div>Клиентоориентированность<div>Основой успешного
+      развития бизнеса компании является выстраивание доверительных отношений с клиентами.
+      Наши клиенты охотно рекомендуют нас в качестве партнеров для долгосрочного сотрудничества.</div>Западные
+      стандарты работы<div>Приверженность современным западным методам работы позволяет
+      нам добиваться высоких результатов в короткий срок.</div>Открытость<div>Мы всегда
+      готовы к сотрудничеству. Наша открытость основана на большом опыте ведения публичной
+      деятельности и уверенности в своей компетентности</div></div>"
+  - - '3'
+    - '24'
+    - ru
+    - '2013-12-09 10:11:08.914641'
+    - '2013-12-09 10:11:08.914641'
+    - "Контакты"
+    - "<p>Адрес</p> <ul class=\"unstyled\"> <li>Россия, 115533, Москва, проспект Андропова,
+      22</li> <li>Бизнес центр «Нагатинский»</li> <li>Тел./Факс: +7 495 7777108</li>
+      <li>mail@hinkels.ru</li> </ul>"
+  - - '5'
+    - '22'
+    - en
+    - '2013-12-09 10:14:57.06086'
+    - '2014-01-08 08:35:59.543504'
+    - About us
+    - "<p><strong>Hinkels Consulting</strong> - an independent law firm, the legal
+      adviser for Russian and foreign companies operating in the Russian market.</p>\r\n<p>Hinkels
+      Consulting lawyers have successful experience in the following areas: migration
+      and labor law, corporate law, real estate, debt collection, dispute resolution,
+      tax and intellectual property.</p>\r\n<p>Customers choose Hinkels Consulting
+      as their legal adviser, as they are confident in qualification of our lawyers,
+      which is based on a thorough knowledge of Russian law, a unique experience and
+      western standards of service.</p>\r\n<p>Services:</p>\r\n<ul>\r\n<li>Corporate
+      law</li>\r\n<li>Migration law</li>\r\n<li>Real estate</li>\r\n<li>Intellectual
+      property</li>\r\n<li>Labor law</li>\r\n<li>Litigation & Arbitration</li>\r\n<li>Taxes</li>\r\n</ul>"
+  - - '6'
+    - '23'
+    - en
+    - '2013-12-09 10:15:28.5493'
+    - '2013-12-09 10:15:28.5493'
+    - Mission
+    - "<p>Our mission is to be a secure legal foothold for medium and large foreign
+      businesses. Therefore we strive for being experts in every field of our practice
+      and providing only qualitative services.</p>\r\n<p>It is western corporate culture,
+      familiar to our clients, that differs us from the others. Within this culture
+      all our members keep the following principles.</p>\r\n<p><storng>Professionalism.</storng></p>\r\n<p>Hinkels
+      Consulting unites only the best specialists in theirs spheres. Orienting easily
+      in present-day changes of the legislation and effective practical methods, our
+      experts solve the most difficult problems of our clients. It allows us to stay
+      leaders in Russian legal market/</p>\r\n<p><strong>Leadership.</strong></p>\r\n<p>Ambish,
+      determination on a constant development, aspiration for being the best &ndash;
+      are the main qualities of our Firm.</p>\r\n<p><strong>Customer-oriented approach.</strong></p>\r\n<p>The
+      base of the successful business development is establishing long and confidential
+      relations with clients. Our clients willingly recommend us as the partners for
+      a long-term cooperation.</p>\r\n<p><strong>Western work standarts.</strong></p>\r\n<p>Adherence
+      to modern western methods of work allows us to achieve high results in short
+      time. </p>\r\n<p><strong>Openness.</strong></p>\r\n<p>We are always ready for
+      cooperation. Our openness is based on a large experience in public activity
+      and assurance in our competence.</p>"
+  - - '7'
+    - '24'
+    - en
+    - '2013-12-09 10:15:50.849543'
+    - '2013-12-10 02:35:07.424687'
+    - Contact
+    - "<p>Address</p> <ul class=\"unstyled\"> <li>Prospekt Andropova, 22, Moscow,
+      115533</li> <li>Business Center \"Nagatinsky\"</li> <li>Phone/Fax: +7 495 7777108</li>
+      <li>mail@hinkels.ru</li> </ul>"
+  - - '8'
+    - '22'
+    - zh-CN
+    - '2014-01-05 06:23:11.877478'
+    - '2014-01-05 06:27:29.846416'
+    - "关于公司"
+    - "<p>Hinkels Consulting — 是一个独立的律师事务所，在俄罗斯市场经营的俄罗斯和外国公司法律顾问。</p>\r\n<p>我们律师的经验很强。我们提供的服务是：
+      移民和劳工法，公司法，房地产，讨债，纠纷， 税收和知识产权。</p>\r\n<p>客户选择Hinkels公司作为其法律顾问，因为他们在本所律师的技能有信心。</p>\r\n<p>本所律师根据俄罗斯法律的深入了解的专业知识，我们的律师的专长是基于服务的独特经验和西方的标准。</p>\r\n<p>我们提供的服务:</p>\r\n<ul>\r\n<li>公司的权利</li>\r\n<li>移民法</li>\r\n<li>房地产</li>\r\n<li>知识产权</li>\r\n<li>劳动法</li>\r\n<li>在法院代表</li>\r\n<li>税法</li>\r\n</ul>"
+  - - '9'
+    - '23'
+    - zh-CN
+    - '2014-01-05 06:24:13.68089'
+    - '2014-01-05 13:36:57.552266'
+    - "使命"
+    - "<p>我们的使命 - 是为中型和大型企业可靠的法律支持，所以我们努力成为专家们在实践的各个领域，并只提供优质的服务。</p>\r\n<p>对我们客户来说，西方的企业文化更适合。所以在我们公司，我们坚持以西方的企业文化。这是我们有别于他公司。
+      根据这种文化我们所有员工坚持以下原则：</p>\r\n<p>专业精神</p>\r\n<p>在Hinkels Consulting 公司只有最好的专家。
+      Л我们的专家在立法变化容易被引导，我们的专家为客户解决最复杂的问题。 这一切都让我们成为俄罗斯法律市场的领导者之一。</p>\r\n<p>领导素质</p>\r\n<p>野心，注重稳定增长，努力成为最好
+      – 我们公司的基本素质。</p>\r\n<p>专注于客户</p>\r\n<p>公司业务的成功发展，是与客户建立互相信任的关系。我们的客户都愿意推荐我们作为长期的合作伙伴。</p>\r\n<p>中西方的标准</p>\r\n<p>我们在工作中坚持现代西方的方法，所以我们在短期内能够实现好成绩。</p>\r\n<p>开放性</p>\r\n<p>我们总是愿意合作。我们的开放性是基于公共活动的丰富经验和在其权限信心。</p>"
+  - - '10'
+    - '24'
+    - zh-CN
+    - '2014-01-05 06:34:06.524421'
+    - '2014-01-05 06:34:06.524421'
+    - "联系我们"
+    - "<p>俄罗斯，115533，莫斯科，安德罗波夫大街，22</p>\r\n<p>“Nagatinsky” 商业中心</p>\r\n<p>电话/传真： +7
+      495 7777108</p>\r\n<p>mail@hinkels.ru</p>\r\n"
+  - - '12'
+    - '32'
+    - en
+    - '2014-02-10 06:32:09.440258'
+    - '2014-02-10 06:32:09.440258'
+    - About us
+    - Menu item<br>
+  - - '13'
+    - '32'
+    - ru
+    - '2014-02-16 12:15:30.050531'
+    - '2014-02-16 12:15:30.050531'
+    - "О нас"
+    - Menu item<br>
+  - - '14'
+    - '32'
+    - zh-CN
+    - '2014-02-16 12:16:57.894021'
+    - '2014-02-16 12:16:57.894021'
+    - "关于公司"
+    - Menu item<br>
+
+---
+articles:
+  columns:
+  - id
+  - title
+  - description
+  - created_at
+  - updated_at
+  - slug
+  - ancestry
+  - weight
+  records: 
+  - - '22'
+    - "О нас"
+    - "<p><strong>Hinkels Consulting</strong> - an independent law firm, the legal
+      adviser for Russian and foreign companies operating in the Russian market.</p>\r\n<p>Hinkels
+      Consulting lawyers have successful experience in the following areas: migration
+      and labor law, corporate law, real estate, debt collection, dispute resolution,
+      tax and intellectual property.</p>\r\n<p>Customers choose Hinkels Consulting
+      as their legal adviser, as they are confident in qualification of our lawyers,
+      which is based on a thorough knowledge of Russian law, a unique experience and
+      western standards of service.</p>\r\n<p>Services:</p>\r\n<ul>\r\n<li>Corporate
+      law</li>\r\n<li>Migration law</li>\r\n<li>Real estate</li>\r\n<li>Intellectual
+      property</li>\r\n<li>Labor law</li>\r\n<li>Litigation & Arbitration</li>\r\n<li>Taxes</li>\r\n</ul>"
+    - '2013-08-07 06:57:23.591647'
+    - '2014-02-10 06:32:27.555521'
+    - about-the-organization
+    - '32'
+    - 
+  - - '23'
+    - "使命"
+    - "<p>我们的使命 - 是为中型和大型企业可靠的法律支持，所以我们努力成为专家们在实践的各个领域，并只提供优质的服务。</p>\r\n<p>对我们客户来说，西方的企业文化更适合。所以在我们公司，我们坚持以西方的企业文化。这是我们有别于他公司。
+      根据这种文化我们所有员工坚持以下原则：</p>\r\n<p>专业精神</p>\r\n<p>在Hinkels Consulting 公司只有最好的专家。
+      Л我们的专家在立法变化容易被引导，我们的专家为客户解决最复杂的问题。 这一切都让我们成为俄罗斯法律市场的领导者之一。</p>\r\n<p>领导素质</p>\r\n<p>野心，注重稳定增长，努力成为最好
+      – 我们公司的基本素质。</p>\r\n<p>专注于客户</p>\r\n<p>公司业务的成功发展，是与客户建立互相信任的关系。我们的客户都愿意推荐我们作为长期的合作伙伴。</p>\r\n<p>中西方的标准</p>\r\n<p>我们在工作中坚持现代西方的方法，所以我们在短期内能够实现好成绩。</p>\r\n<p>开放性</p>\r\n<p>我们总是愿意合作。我们的开放性是基于公共活动的丰富经验和在其权限信心。</p>"
+    - '2013-08-07 06:57:23.652371'
+    - '2014-02-10 06:32:38.941018'
+    - mission
+    - '32'
+    - 
+  - - '24'
+    - "联系我们"
+    - "<p>俄罗斯，115533，莫斯科，安德罗波夫大街，22</p>\r\n<p>“Nagatinsky” 商业中心</p>\r\n<p>电话/传真： +7
+      495 7777108</p>\r\n<p>mail@hinkels.ru</p>\r\n"
+    - '2013-08-07 06:57:23.694567'
+    - '2014-01-05 13:17:11.947152'
+    - contact
+    - 
+    - 
+  - - '32'
+    - "关于公司"
+    - Menu item<br>
+    - '2014-02-10 06:32:09.415989'
+    - '2014-02-16 12:16:57.891286'
+    - about-us
+    - 
+    - 
+
+---
+publication_translations:
+  columns:
+  - id
+  - publication_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  - description
+  records: 
+  - - '4'
+    - '5'
+    - ru
+    - '2014-02-16 12:55:42.758913'
+    - '2014-03-27 21:51:33.39518'
+    - "Налогообложение экспатов."
+    - "<p>В России, как и во многих других странах\r\n«Экпатриатами» (или сокращено
+      на «экспатами») принято называть иностранных\r\nсотрудников, работающих по контракту
+      за рубежом.</p>\r\n\r\n<p>Работая в России, экспаты, при определенных\r\nусловиях
+      обязаны отчитываться о доходах и платить подоходный налог. Правда,\r\nделают
+      это далеко не все, а если точнее, почти все кроме граждан ближнего\r\nзарубежья.
+      Поскольку доходы выходцев из стран СНГ неконтролируемы (за редким исключением),\r\nто
+      и их налоги мало кого интересуют.</p>\r\n\r\n<p>Европейцы же, благодаря своей
+      законопослушности,\r\nотчитываются о своих доходах по полной. Однако, дело не
+      только в\r\nзаконопослушности. Экспаты в основном работают «по белому» - по
+      контракту с\r\nроссийской или иностранной организацией.&nbsp;Российский работодатель
+      отчитывается за\r\nдоходы иностранного работника&nbsp; и\r\nуплачивает за него
+      все причитающиеся налоги точно также как и за российских\r\nсотрудников. &nbsp;Поэтому
+      когда доход\r\nиностранца - это исключительно российская зарплата, ему о своих
+      налогах\r\nволноваться не стоит.&nbsp; За него все\r\nсделает работодатель:
+      и куда надо отчитается,&nbsp;\r\nи сколько надо заплатит.&nbsp;В случае, если
+      иностранец, работая в России,\r\nполучает вознаграждения за рубежом, он отчитывается
+      о них самостоятельно. В\r\nлюбом случае избежать декларирования доходов экспату-европейцу
+      сложнее, чем его\r\nколлеге например из Таджикистана, поскольку на родине его
+      рано или поздно\r\nпопросят отчитаться о полученных доходах и уплаченных налогах
+      за период работы\r\nза рубежом. Итак,&nbsp; задекларировав\r\nвсе свои иностранные
+      заработки, законопослушный экпатриат, страстно желая\r\nрасстаться с&nbsp; 13-ю
+      процентами от своих\r\nкровных, несет налоговую декларацию на рассмотрение российским
+      налоговикам. Первое, что искренне удивляет иностранца, это\r\nтребование налоговиков
+      подтвердить количество проведенных в России дней, т.е. подтвердить\r\nстатус
+      «налогового резидента». На самом деле,&nbsp; это требование&nbsp; более чем
+      абсурдно. Ведь в соответствии с\r\nзаконом, если налогоплательщик не пробыл
+      в России 183 дня, т.е. не приобрел\r\nстатус налогового резидента, его зарубежный
+      доход вообще не подлежит налогообложению.\r\nИными словами, зарубежный доход
+      может облагаться либо по ставке 13%, либо не\r\nоблагаться вовсе. Третьего варианта
+      не существует.&nbsp;Зачем при декларировании зарубежных доходов\r\nнеобходимо
+      подтверждать количество проведенных в России дней? На этот вопрос\r\nпока никто
+      не может внятно ответить. Зачастую налоговые инспекторы ссылаются на\r\nположение
+      налогового законодательства, согласно которому налоговые резиденты и\r\nнерезиденты
+      облагаются по различным налоговым ставкам – 13% и 30%\r\nсоответственно. И поэтому,
+      точно зная количество дней, они якобы безошибочно\r\nприменят соответствующую
+      ставку налога. При этом они почему-то напрочь\r\nзабывают, что это положение
+      распространяется лишь на российские доходы, а к\r\nзарубежным заработкам никакого
+      отношения не имеет. Кроме этого, налоговики требуют доказать\r\nпроисхождение
+      зарубежных доходов, указанных в декларации, то есть предоставить\r\nнекую справку
+      от зарубежного источника дохода, да еще с переводом на русский\r\nязык. И только
+      в этом случае иностранец удостоится великой чести быть\r\nобложенным российским
+      налогом. &nbsp;Казалось\r\nбы, должно быть все наоборот: заработанные средства
+      лишь должны быть надлежащим\r\nобразом задекларированы. А если у налоговых органов
+      возникают какие-либо\r\nсомнения в полноте задекларированных доходов, они в
+      праве самостоятельно\r\nпровести какую угодно проверку или расследование. Например,
+      посетить\r\nзарубежного работодателя, запросить у него какие-угодно бумаги и
+      справки, при\r\nнеобходимости перевести их на русский язык. Но, самостоятельно
+      и за свой счет.\r\nОт налогоплательщика же требуется лишь задекларировать то,
+      что он заработал,\r\nбез каких-либо дополнительных подтверждений. Особенно если
+      эти подтверждения\r\nтребуют дополнительных затрат. В стремлении иностранца
+      заплатить в России так\r\nназываемый «самый низкий в мире налог» усматривается
+      чуть ли не уклонение от\r\nналогообложения. Правда, от какого – тоже мало понятно.
+      Кстати, о «самом\r\nнизком» налоге тоже можно поспорить. При детальном изучении
+      принципов\r\nналогообложения в той же Европе или США, оказывается, что наш налог
+      далеко не\r\nсамый низкий. Например, суммы, с которых мы уже платим 13%, во
+      многих странах\r\nне облагаются налогом вообще, не говоря уже об ощутимых налоговых
+      вычетах и\r\nльготах, о семейных декларациях, и прочих нюансах, существенно
+      уменьшающих\r\nналоговые нагрузки на граждан. А о налогообложении в нефтедобывающих
+      странах\r\nнам – обладателям богатейших недр можно только мечтать. Но это уже
+      другая тема\r\nдля дискуссий.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br></p>\r\n\r\n<p>Консультант
+      по налогам</p>"
+  - - '5'
+    - '6'
+    - ru
+    - '2014-02-18 19:18:55.804503'
+    - '2014-02-18 19:18:55.804503'
+    - "Правовая экспертиза документов."
+    - "<p>Правовая&nbsp;экспертиза соглашений&nbsp;и иной&nbsp;корпоративной документации&nbsp;на&nbsp;соответствие
+      действующему&nbsp;законодательству РФ, выявление спорных положений, соблюдение\r\nпотребностей
+      клиента и изучение иного варианта договорных отношений является\r\nнеобходимым
+      условием для заключения сделки. </p>\r\n\r\n<p>В случае непроведения\r\nправовой
+      экспертизы документов клиент может взять на себя невыгодные\r\nобязательства,
+      нести убытки от безнаказанного нарушения другой стороной сделки\r\nусловий договора.</p>\r\n\r\n<p>&nbsp;Документ
+      может быть признан судебным органом\r\nнедействительным, если он не соответствует
+      нормам действующего\r\nзаконодательства, ущемляет права сторон, участвующих
+      в сделке, подписан неуполномоченным\r\nпредставителем и в иных случаях. Для
+      начала работы с документом достаточно\r\nкопии и постановки конкретной задачи
+      перед юристом: </p>\r\n\r\n<p>- проверка\r\nопределенного условия договора (порядок
+      расчетов, ответственность, обязанности\r\nсторон и т. д. </p>\r\n\r\n<p>- наличие\r\nнеобходимого
+      количества и содержания документов, необходимых для подготовки\r\nдоговора (доверенность,
+      акты, приложения и т. д. </p>\r\n\r\n<p>- юридические\r\nпоследствия подписания
+      договора, соответствие действующему законодательству. </p>\r\n\r\n<p>Результат
+      экспертизы\r\nдокумента оформляется в виде правового заключения, которое содержит
+      в себе\r\nответы по поставленным вопросам, содержать рекомендации по корректировке\r\nусловий
+      договора.</p>"
+  - - '6'
+    - '6'
+    - en
+    - '2014-02-18 19:23:41.626366'
+    - '2014-02-18 19:23:41.626366'
+    - Legal examination of the documents.
+    - "Legal examination of agreements and other corporate documents for compliance
+      with the current legislation of the Russian Federation, the identification of
+      the disputed provisions, compliance with the client's needs and the examination
+      of  another variant of contractual relations are the main conditions for a deal.\r\n
+      \r\nIn case there was no any legal review of the documents the client can take
+      over unprofitable commitments or  bear  losses from the breach by the other
+      party of contractual terms and conditions.\r\n \r\n The document may be found
+      invalid by a judicial authority, if it: does not comply with the current laws,
+      encroaches on the rights of the parties involved in the transaction, signed
+      by an unauthorized agent and in some other cases. To start a legal expertise
+      we need only a copy of the document and statement of definite tasks to the lawyer:\r\n
+      \r\n-Checkout of certain terms of the contract (settlement procedures, responsibilities,
+      obligations of the parties, etc).\r\n \r\n- Availability of the required quantity
+      and content of the documents required for the preparation of the contract (power
+      of attorney, certificates, applications, etc).\r\n \r\n- The legal implications
+      of the contract, compliance with applicable laws.\r\n \r\nThe results of the
+      document’s examination are usually issued in the form of a legal opinion, which
+      contains the answers to the questions set, and also recommendations concerning
+      the adjustments to contract terms.\r\n"
+  - - '7'
+    - '5'
+    - en
+    - '2014-02-18 19:52:14.327817'
+    - '2014-03-27 21:51:05.097594'
+    - A little about the taxation of "expats".
+    - "In Russia, as in many other countries, \" Expatriates \" (or abbreviated: \"
+      expats \") are foreign employees , who work abroad under the contract.\r\n \r\nWorking
+      in Russia, expats, under certain conditions, are required to report on their
+      income and pay the income tax. However, not all of them do this. <br><br>To
+      be specific, almost everyone except the citizens of neighboring countries. The
+      income of the immigrants from the CIS is uncontrolled (with rare exceptions),
+      so people as a rule are not enough interested in their taxes.\r\n\r\nEuropeans,
+      because of their obedience to the law, always report on their income. However,
+      it is not only in compliance with the law. Expats from Europe mostly work officially
+      - under the contract with the Russian or foreign organization.\r\n<br><br>Russian
+      employer reports on the income of foreign workers and pays for them all taxes
+      just like for the Russian employees. Therefore, when the income of a foreigner
+      - is the only his Russian salary, so there is no need to worry about taxes.
+      Everything will be made for him by his employer.\r\n\r\nIf a foreigner who works
+      in Russia receives his remuneration abroad, he should report on his taxes by
+      his own. In any case, for Europeans it’s more difficult to avoid the declaring
+      of their income than, for example, for workers from Tajikistan, as at home sooner
+      or later they will be asked to report on their income and on their taxes which
+      should have been paid during the period of working abroad.\r\n\r\nSo, after
+      declaration of all their foreign earnings, law-abiding expatriates submit their
+      tax return to the Russian tax authorities.\r\n<br>&nbsp;The first thing that
+      truly surprises the foreigners, is the requirement to confirm the amount of
+      days in Russia, i.e. to confirm the status of a «tax resident».\r\n\r\nIn fact,
+      this requirement is more than absurd. Because in accordance with the law, if
+      the taxpayer had been in Russia for less than 183 days, i.e. he had not acquired
+      the status of a tax resident, so his foreign income is not taxable. In other
+      words, the foreign income may be taxed at a rate of either 13% or not taxed
+      at all. And there is no third variant.\r\n\r\nWhy it’s necessary to confirm
+      the number of days spent in Russia? This question has no answer yet. Often tax
+      inspectors rely on the provisions of the tax law, according to which tax residents
+      and non-residents are taxed at different tax rates –\r\n 13 % and 30 %, respectively.
+      Therefore, knowing the number of days they can correctly implement the appropriate
+      tax rate. For some reason they completely forget that this provision applies
+      only to Russian income, and to foreign earnings has nothing to do.\r\n\r\nIn
+      addition, the tax authorities require to prove the origin of the foreign income
+      referred to in the declaration, that is, to provide some kind of Certificate
+      from foreign source of their income, with its translation into Russian. Only
+      in this case, the foreigner will be awarded the great honor of being taxed by
+      the Russian tax. It would seem to be the opposite: the income earned only need
+      to be properly declared. And if the tax authorities have any doubt about the
+      fullness of declared income, they are eligible to hold any sort of examination
+      or investigation. For example, to visit the foreign employer, ask him what they
+      want - paper and certificates, if necessary, with translation of them into Russian.
+      But, at their own expense(we mean tax authorities). <br><br>The taxpayer is
+      required to declare only what he earned, without any further evidence. Especially
+      if these acknowledgments require additional costs.\r\n\r\nIn an effort of a
+      foreigner to pay in Russia the so-called \"the world's lowest tax\" is seen
+      almost tax evasion. However, from what tax – it is difficult to understand...
+      By the way, the \"lowest\" tax is debatable, too. In a detailed study of the
+      principles of taxation in the same Europe or the U.S., it turns out that our
+      tax is not the lowest. For example , the amounts from which we usually pay 13%
+      in many countries are not taxed at all, and it’s without mentioning the significant
+      tax deductions and benefits of family declarations, and other nuances, significantly
+      reducing the tax burden on citizens. And regarding the taxation in the oil-producing
+      countries – we, the owners of the richest mineral resources can only dream of
+      it... But that is another topic for discussion .\r\n<br><br><br><br>Self-Employed
+      Tax Consultant"
+  - - '8'
+    - '7'
+    - en
+    - '2014-02-19 18:08:14.971744'
+    - '2014-02-19 18:36:55.766541'
+    - Supporting your business in Russia
+    - "<p><span>At present, in connection with\r\nincrease in inflow of foreign capital
+      into Russia more often start to appear\r\nthe questions how it is the most convenient
+      for the foreign companies to start\r\nthe realization of commercial activity
+      in the Russian Federation.<br>\r\nHinkels Consulting offers a wide range of
+      legal services aimed at supporting\r\nyour business in Russia.<br>\r\nEspecially
+      for you, we will collect the all the useful information and the most\r\nconvenient
+      form of business conducting according to your activity, considering\r\nyour
+      wishes.<br>\r\nHinkels Consulting has created and confirmed own unique style
+      which combines\r\nprofessionalism and an individual approach, fast results and
+      maximum comfort in\r\ndialogue with the client.<br>\r\nAbility to understand
+      and analyze a problem , to search for the maximum\r\nadvantage for our clients,
+      to be in touch with constantly varying international\r\nsituation are the qualities
+      which have confirmed us as the desirable partner of\r\nmany Russian and international
+      companies.<br>\r\nThe qualified lawyers of Hinkels will offer you optimal ways
+      of exit from most\r\ndifficult situations.<br>\r\nThey will give you the all
+      necessary consultations and the recommendations\r\nconnected with the solution
+      of questions of migration registration, invitation,\r\nreception of the visa
+      to foreigners in territory of the Russian Federation.<br>\r\nHinkels will help
+      you in the solving of following legal matters:</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nRegistration
+      and accreditation of companies</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nCorporate\r\ndocumentation
+      preparing and holding negotiations</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nPreparing
+      and\r\nanalysis of economic contracts</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nSupporting
+      corporate formalities</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nVerification
+      counterparty in Russia</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nSupporting
+      deals\r\nof mergers and acquisitions</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nReorganization
+      and restructuring of companies</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nJoint
+      ventures</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nLegal
+      assistance\r\nin license acquisition for all kinds of activity</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nVisa
+      support</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nObtaining
+      work\r\npermits for foreign employees – non-residents</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nMigration
+      registration</p>\r\n\r\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nLegal
+      advice of\r\nall questions connected with entry, departure and sojournment of
+      foreign\r\nemployees and their families on the territory of Russian Federation</p>"
+  - - '9'
+    - '7'
+    - ru
+    - '2014-02-19 18:47:39.730614'
+    - '2014-02-19 18:50:05.531276'
+    - "Поддержка бизнеса в России."
+    - "В настоящее время, в связи с увеличением притока иностранного капитала в Россию,
+      чаще начинают появляться вопросы, как наиболее эффективно иностранным компаниям
+      реализовывать коммерческую деятельность на территории Российской Федерации.\r\n<br>Hinkels
+      Consulting предлагает широкий спектр юридических услуг, направленных на юридическую
+      поддержку бизнеса в России.\r\nУчитывая Ваши пожелания, мы соберем всю необходимую
+      информацию и выберем наиболее удобную форму ведения бизнеса в соответствии с
+      Вашей деятельностью. <br>В Hinkels Consulting создан собственный уникальный
+      стиль работы, который сочетает в себе профессионализм и индивидуальный подход,
+      быстрый результат и максимальный комфорт в общении с клиентом.\r\n\r\nСпособность
+      понимать и анализировать проблемы, поиск максимальной пользы для наших клиентов,
+      постоянное отслеживание меняющейся международной обстановки - это те качества,
+      благодаря которым нас выбирают российских и иностранные компании в качестве
+      надежного партнера.\r\n<br><br>Квалифицированные юристы Hinkels предложат Вам
+      оптимальные пути выхода из самых сложных ситуаций, дадут все необходимые консультации
+      и рекомендации, связанные с решением юридических вопросов на территории Российской
+      Федерации.\r\n<br><br>Hinkels поможет вам в решении следующих юридических вопросов:\r\n<br><br>•
+      Регистрация и аккредитация компаний<br>• Корпоративная документация <br>• Участие
+      в переговорах\r\n<br>•&nbsp;Подготовка и анализ хозяйственных договоров<br>•
+      Поддержка корпоративных процедур<br>• Проверка контрагента на территории РФ<br>•
+      Поддержка сделок слияния и поглощения<br>• Реорганизация и реструктуризация
+      компаний<br>• Визовая поддержка<br>• Получение разрешений на работу для иностранных
+      сотрудников - нерезидентов<br>• Миграционный учет<br>• Юридические консультации
+      по всем вопросам, связанным с въездом, выездом и временным пребыванием иностранных
+      работников и членов их семей на территории России."
+  - - '10'
+    - '7'
+    - zh-CN
+    - '2014-03-10 07:49:43.136632'
+    - '2014-03-10 07:53:27.169976'
+    - "在俄罗斯的业务支持"
+    - "目前，国外资金流入俄罗斯增加。 所以越来越多的问题开始出现，如何外国公司在俄罗斯联邦经营商业的最有效地实现。<br>Hinkels Consulting
+      公司提供广泛的法律服务业务在俄罗斯的法律支持。 考虑到您的愿望，我们将收集所有必要的信息，并选择业务最方便的形式为您服务。<br>我公司创建工作自己独特的风格，结合专业知识和个人的方法，快速的结果和最大的舒适与客户沟通。理解能力和分析问题，找到最大的利益给我们的客户，持续监控不断变化的国际形势
+      这些特点让俄罗斯和外国公司把我们作为一个可靠的合作伙伴。<br>我们公司的合资格律师为您提供最好的出路是最困难的情况下， 给予一切必要的咨询和指导 ，
+      涉及的法律问题在俄罗斯联邦的解决方案。<br><br>Hinkels 公司将帮助您解决以下法律问题：<br><ul><li>注册和认证公司</li><li>企业文档</li><li>参加谈判</li><li>制备与分析经济协议</li><li>支持企业程序</li><li>检查承包商在俄罗斯</li><li>支持兼并重组</li><li>公司重组及重组</li><li>签证支持</li><li>获得工作许可的非居民外籍员工</li><li>迁移登记</li><li>对入境，出境和外国工人和他们的家庭在俄罗斯境内临时住宿法律咨询
+      。</li></ul><br>"
+  - - '11'
+    - '6'
+    - zh-CN
+    - '2014-03-10 07:55:39.003997'
+    - '2014-03-10 07:58:14.007878'
+    - "法律公文检验"
+    - "协议及其他公司文件的法律专业知识 (遵守俄罗斯联邦的现行法例), 有争议的条款确定, 客户需求符合, 另一种变体的合同关系研究, 都是交易的先决条件。<br>在案件的文件没有法律审查，
+      客户端可以接管不盈利的承诺，由于另一方当事人违反的合同条款蒙受损失。该文件可能被发现无效，由司法机构，如果它不符合现行法律，侵犯了参与交易的各方，由未经授权的代理人签署的权利及其他。<br>要启动与文档工作
+      我们只要文件副本和该问题的确切的制剂： <br><ol><li>合同的若干条款 检查 （解决程序，责任，各方职责等。）</li><li>所需的数量和文件的内容
+      可用性对于合同的准备 （授权书，行为， 应用程序等。）</li><li>合同的法律后果， 遵守适用的法律。</li></ol>该文件的检查结果是法律意见的形式发出，其中包含提出的问题的答案，调整合同条款的建议。<br><br><br><br>"
+  - - '12'
+    - '5'
+    - zh-CN
+    - '2014-03-10 08:02:58.132198'
+    - '2014-03-10 08:02:58.132198'
+    - "外籍人士税收"
+    - "在许多国家包括俄罗斯“外籍人士”是在国外根据合同工作的外国雇员。<br>在俄罗斯工作的话，外籍人士，根据需要报告的收入和缴纳所得税若干条件。但是，这样做是不是所有的，或者说，几乎所有的除了周边国家的国民。由于独联体国家无法控制的（除了极少数例外）收入移民，那么他们征税兴趣不大。<br>欧洲人本守法，他们总是报告自己的收入。
+      然而，原因不仅是符合法律规定。<br>外籍人士大多工作“白” - 与俄罗斯或外国组织的合同。俄罗斯的雇主为外国工人的收入负责 并支付所有应付的税款 ，跟俄罗斯的员工完全一样。因此，当一个外国人的收入完全是俄罗斯的工资
+      他不应该关他们的税担心。 替他雇主 来解决报告和付款。如果一个外国人在俄罗斯工作但是他的薪酬从国外来的，外籍人士一定要自己报告自己的的收入。在任何情况下，避免申报收入的外籍比欧洲人从塔吉克斯坦如在家里他的对手更加努力，迟早会被要求报告有关在工作期间境外支付的收入和税收。<br>因此，守法外籍人士
+      申报其所有海外收入，必须提交报税表 审议通过了俄罗斯税务部门。首先是税收的要求是确认数目在俄罗斯呆的天（即确认“税务居民”的地位）。其实，这种说法是荒谬的。事实上，按照法律规定，除非纳税人已经使用了183天，俄罗斯，即未取得税务居民身份，这是不是在所有的外国收入征税。换句话说，国外收入可能在任13％或不征税的所有税率征税。没有第三个选项。为什么当申报海外收入需要确认日在俄罗斯度过了多少？这个问题没有人能回答清楚。税务稽查往往依赖于税收立法，据此，税务居民和非居民的税率按不同税率的规定
+      - 分别为13％和30％。 所以，知道他们涉嫌正确使用相应的税率的天数。然而，他们不知何故忘记了这一规定仅适用于俄罗斯的收入，以及外汇收入没有关系。 此外，税务机关要求以证明在声明中指定的国外收入的来源，即，为客户提供翻译成俄文从国外来源收入的凭证。只有在这种情况下，外国人将成为俄罗斯相当于征税。如果税务机关有怀疑申报收入的完整性，
+      他们必须保持任何形式的自我检查或调查的权利。 例如，要访问一个外国雇主，问他你要什么纸和参考如果有必要，将它们翻译成俄文。都是他们自己负责和自己付费。从纳税人必须申报只是它的工作，没有任何进一步的证据。特别是如果这样的确认需要额外的费用。的税收在同欧洲或美国的原理进行详细研究，事实证明，我们的税收是不是最低的。例如，我们已经在许多国家支付13％的金额，以不征税可言，更何况显著减税和免税，关于家庭，和其他细微差别的声明，本质上减少了对公民的税收负担。
+      并在税收中的石油生产国给我们 – 最富有的业主只能梦想的底土。<br>&nbsp;但是，这是另一个话题进行讨论。<br><br><br><br>"
+
+---
+publications:
+  columns:
+  - id
+  - title
+  - description
+  - created_at
+  - updated_at
+  records: 
+  - - '5'
+    - "外籍人士税收"
+    - "<p>В России, как и во многих других странах\r\n«Экпатриатами» (или сокращено
+      на «экспатами») принято называть иностранных\r\nсотрудников, работающих по контракту
+      за рубежом.</p>\r\n\r\n<p>Работая в России, экспаты, при определенных\r\nусловиях
+      обязаны отчитываться о доходах и платить подоходный налог. Правда,\r\nделают
+      это далеко не все, а если точнее, почти все кроме граждан ближнего\r\nзарубежья.
+      Поскольку доходы выходцев из стран СНГ неконтролируемы (за редким исключением),\r\nто
+      и их налоги мало кого интересуют.</p>\r\n\r\n<p>Европейцы же, благодаря своей
+      законопослушности,\r\nотчитываются о своих доходах по полной. Однако, дело не
+      только в\r\nзаконопослушности. Экспаты в основном работают «по белому» - по
+      контракту с\r\nроссийской или иностранной организацией.&nbsp;Российский работодатель
+      отчитывается за\r\nдоходы иностранного работника&nbsp; и\r\nуплачивает за него
+      все причитающиеся налоги точно также как и за российских\r\nсотрудников. &nbsp;Поэтому
+      когда доход\r\nиностранца - это исключительно российская зарплата, ему о своих
+      налогах\r\nволноваться не стоит.&nbsp; За него все\r\nсделает работодатель:
+      и куда надо отчитается,&nbsp;\r\nи сколько надо заплатит.&nbsp;В случае, если
+      иностранец, работая в России,\r\nполучает вознаграждения за рубежом, он отчитывается
+      о них самостоятельно. В\r\nлюбом случае избежать декларирования доходов экспату-европейцу
+      сложнее, чем его\r\nколлеге например из Таджикистана, поскольку на родине его
+      рано или поздно\r\nпопросят отчитаться о полученных доходах и уплаченных налогах
+      за период работы\r\nза рубежом. Итак,&nbsp; задекларировав\r\nвсе свои иностранные
+      заработки, законопослушный экпатриат, страстно желая\r\nрасстаться с&nbsp; 13-ю
+      процентами от своих\r\nкровных, несет налоговую декларацию на рассмотрение российским
+      налоговикам. Первое, что искренне удивляет иностранца, это\r\nтребование налоговиков
+      подтвердить количество проведенных в России дней, т.е. подтвердить\r\nстатус
+      «налогового резидента». На самом деле,&nbsp; это требование&nbsp; более чем
+      абсурдно. Ведь в соответствии с\r\nзаконом, если налогоплательщик не пробыл
+      в России 183 дня, т.е. не приобрел\r\nстатус налогового резидента, его зарубежный
+      доход вообще не подлежит налогообложению.\r\nИными словами, зарубежный доход
+      может облагаться либо по ставке 13%, либо не\r\nоблагаться вовсе. Третьего варианта
+      не существует.&nbsp;Зачем при декларировании зарубежных доходов\r\nнеобходимо
+      подтверждать количество проведенных в России дней? На этот вопрос\r\nпока никто
+      не может внятно ответить. Зачастую налоговые инспекторы ссылаются на\r\nположение
+      налогового законодательства, согласно которому налоговые резиденты и\r\nнерезиденты
+      облагаются по различным налоговым ставкам – 13% и 30%\r\nсоответственно. И поэтому,
+      точно зная количество дней, они якобы безошибочно\r\nприменят соответствующую
+      ставку налога. При этом они почему-то напрочь\r\nзабывают, что это положение
+      распространяется лишь на российские доходы, а к\r\nзарубежным заработкам никакого
+      отношения не имеет. Кроме этого, налоговики требуют доказать\r\nпроисхождение
+      зарубежных доходов, указанных в декларации, то есть предоставить\r\nнекую справку
+      от зарубежного источника дохода, да еще с переводом на русский\r\nязык. И только
+      в этом случае иностранец удостоится великой чести быть\r\nобложенным российским
+      налогом. &nbsp;Казалось\r\nбы, должно быть все наоборот: заработанные средства
+      лишь должны быть надлежащим\r\nобразом задекларированы. А если у налоговых органов
+      возникают какие-либо\r\nсомнения в полноте задекларированных доходов, они в
+      праве самостоятельно\r\nпровести какую угодно проверку или расследование. Например,
+      посетить\r\nзарубежного работодателя, запросить у него какие-угодно бумаги и
+      справки, при\r\nнеобходимости перевести их на русский язык. Но, самостоятельно
+      и за свой счет.\r\nОт налогоплательщика же требуется лишь задекларировать то,
+      что он заработал,\r\nбез каких-либо дополнительных подтверждений. Особенно если
+      эти подтверждения\r\nтребуют дополнительных затрат. В стремлении иностранца
+      заплатить в России так\r\nназываемый «самый низкий в мире налог» усматривается
+      чуть ли не уклонение от\r\nналогообложения. Правда, от какого – тоже мало понятно.
+      Кстати, о «самом\r\nнизком» налоге тоже можно поспорить. При детальном изучении
+      принципов\r\nналогообложения в той же Европе или США, оказывается, что наш налог
+      далеко не\r\nсамый низкий. Например, суммы, с которых мы уже платим 13%, во
+      многих странах\r\nне облагаются налогом вообще, не говоря уже об ощутимых налоговых
+      вычетах и\r\nльготах, о семейных декларациях, и прочих нюансах, существенно
+      уменьшающих\r\nналоговые нагрузки на граждан. А о налогообложении в нефтедобывающих
+      странах\r\nнам – обладателям богатейших недр можно только мечтать. Но это уже
+      другая тема\r\nдля дискуссий.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br></p>\r\n\r\n<p>Консультант
+      по налогам</p>"
+    - '2014-02-16 12:55:42.744811'
+    - '2014-03-27 21:51:33.384795'
+  - - '6'
+    - "法律公文检验"
+    - "协议及其他公司文件的法律专业知识 (遵守俄罗斯联邦的现行法例), 有争议的条款确定, 客户需求符合, 另一种变体的合同关系研究, 都是交易的先决条件。<br>在案件的文件没有法律审查，
+      客户端可以接管不盈利的承诺，由于另一方当事人违反的合同条款蒙受损失。该文件可能被发现无效，由司法机构，如果它不符合现行法律，侵犯了参与交易的各方，由未经授权的代理人签署的权利及其他。<br>要启动与文档工作
+      我们只要文件副本和该问题的确切的制剂： <br><ol><li>合同的若干条款 检查 （解决程序，责任，各方职责等。）</li><li>所需的数量和文件的内容
+      可用性对于合同的准备 （授权书，行为， 应用程序等。）</li><li>合同的法律后果， 遵守适用的法律。</li></ol>该文件的检查结果是法律意见的形式发出，其中包含提出的问题的答案，调整合同条款的建议。<br><br><br><br>"
+    - '2014-02-18 19:18:55.62261'
+    - '2014-03-10 07:58:14.005493'
+  - - '7'
+    - "在俄罗斯的业务支持"
+    - "目前，国外资金流入俄罗斯增加。 所以越来越多的问题开始出现，如何外国公司在俄罗斯联邦经营商业的最有效地实现。<br>Hinkels Consulting
+      公司提供广泛的法律服务业务在俄罗斯的法律支持。 考虑到您的愿望，我们将收集所有必要的信息，并选择业务最方便的形式为您服务。<br>我公司创建工作自己独特的风格，结合专业知识和个人的方法，快速的结果和最大的舒适与客户沟通。理解能力和分析问题，找到最大的利益给我们的客户，持续监控不断变化的国际形势
+      这些特点让俄罗斯和外国公司把我们作为一个可靠的合作伙伴。<br>我们公司的合资格律师为您提供最好的出路是最困难的情况下， 给予一切必要的咨询和指导 ，
+      涉及的法律问题在俄罗斯联邦的解决方案。<br><br>Hinkels 公司将帮助您解决以下法律问题：<br><ul><li>注册和认证公司</li><li>企业文档</li><li>参加谈判</li><li>制备与分析经济协议</li><li>支持企业程序</li><li>检查承包商在俄罗斯</li><li>支持兼并重组</li><li>公司重组及重组</li><li>签证支持</li><li>获得工作许可的非居民外籍员工</li><li>迁移登记</li><li>对入境，出境和外国工人和他们的家庭在俄罗斯境内临时住宿法律咨询
+      。</li></ul><br>"
+    - '2014-02-19 18:08:14.965374'
+    - '2014-03-10 07:53:27.167002'
+
+---
+service_translations:
+  columns:
+  - id
+  - service_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  - description
+  records: 
+  - - '1'
+    - '29'
+    - ru
+    - '2013-12-10 02:20:26.238472'
+    - '2013-12-10 02:20:26.238472'
+    - "Интеллектуальная собственность"
+    - "<ul><li>Авторское право</li><li>Патенты</li><li>Товарные знаки</li></ul>"
+  - - '2'
+    - '30'
+    - ru
+    - '2013-12-10 02:20:26.275089'
+    - '2013-12-10 02:20:26.275089'
+    - "Корпоративное право"
+    - "<ul><li>Создание, реорганизация и ликвидация компаний</li><li>Аккредитация
+      представительств и филиалов</li><li>Сопровождение сделок по слиянию и поглощению</li><li>Комплексная
+      правовая диагностика компании</li><li>Разработка корпоративной документации
+      и проведение переговоров</li><li>Реорганизация и прекращение деятельности юридических
+      лиц</li><li>Разработка и анализ договоров купли-продажи</li><li>Ведение переговоров
+      и отстаивание интересов клиента</li></ul>"
+  - - '3'
+    - '31'
+    - ru
+    - '2013-12-10 02:20:26.28163'
+    - '2013-12-10 02:20:26.28163'
+    - "Миграционное право"
+    - "<ul><li>Получение разрешений на работу для иностранных сотрудников</li><li>Визовая
+      поддержка</li><li>Оформление миграционного учёта</li><li>Консультации по всем
+      вопросам, связанным с въездом, выездом и пребыванием иностранных сотрудников
+      компании и членов их семей на территории РФ</li></ul>"
+  - - '4'
+    - '32'
+    - ru
+    - '2013-12-10 02:20:26.28774'
+    - '2013-12-10 02:20:26.28774'
+    - "Налоговое право"
+    - "<ul><li>Консультации по вопросам налогообложения при слиянии и поглощении,
+      иных видах реорганизации</li><li>Анализ налоговых рисков</li><li>Консультации
+      в сфере налогообложения финансовых сделок</li><li>Консультирование по вопросам
+      налогообложения и налоговой отчетности иностранных физических лиц</li></ul>"
+  - - '5'
+    - '33'
+    - ru
+    - '2013-12-10 02:20:26.293485'
+    - '2013-12-10 02:20:26.293485'
+    - "Недвижимость"
+    - "<ul><li>Правовое сопровождение приобретения и продажи земельных активов и объектов
+      недвижимости</li><li>Изменение категории земельных участков и регистрация таких
+      изменений</li><li>Правовое сопровождение сделок с недвижимостью в Москве и других
+      регионах</li><li>Регистрация прав на недвижимое имущество</li><li>Внесение изменений
+      в правоустанавливающие документы на недвижимость</li><li>Содействие по вступлению
+      в СРО для получения строительных лицензий и разрешений</li><li>Разработка и
+      сопровождение договоров аренды недвижимого имущества</li><li>Приватизация земельных
+      участков</li></ul>"
+  - - '6'
+    - '34'
+    - ru
+    - '2013-12-10 02:20:26.299277'
+    - '2013-12-10 02:20:26.299277'
+    - "Судебное представительство"
+    - "<ul><li>Взыскание задолженности</li><li>Коммерческие споры</li><li>Споры с
+      потребителями</li><li>Трудовые споры</li><li>Споры в области недвижимости</li><li>Корпоративные
+      споры</li><li>Представление интересов клиентов на стадии исполнительного производства</li></ul>"
+  - - '7'
+    - '35'
+    - ru
+    - '2013-12-10 02:20:26.328091'
+    - '2013-12-10 02:20:26.328091'
+    - "Трудовое право"
+    - "<ul><li>Разработка кадровой документации</li><li>Консультирование по вопросам
+      оплаты труда, премирования, страховых и пенсионных начислений</li><li>Реструктуризация
+      трудовых отношений, сокращение штата</li><li>Помощь в разрешении трудовых споров,
+      представление и защита интересов в суде</li><li>Аутсорсинг и аутстаффинг персонала</li><li>Консультирование
+      по вопросам охраны труда</li><li>Защита персональных данных</li></ul>"
+  - - '8'
+    - '29'
+    - en
+    - '2013-12-10 02:21:44.398345'
+    - '2013-12-10 02:22:47.443957'
+    - Intellectual property
+    - "<ul>\r\n<li>Copyright</li>\r\n<li>Patents</li>\r\n<li>Trademarks</li>\r\n</ul>"
+  - - '9'
+    - '30'
+    - en
+    - '2013-12-10 02:23:30.801994'
+    - '2013-12-10 02:23:53.385463'
+    - Corporate law
+    - "<ul>\r\n<li>Registration, reorganization and liquidation of companies</li>\r\n<li>Accreditation
+      of Rep Offices and branches</li>\r\n<li>Mergers and acquisitions</li>\r\n<li>Comprehensive
+      legal diagnostics of the company</li>\r\n<li>Development of corporate documentation
+      and negotiating</li>\r\n<li>Reorganization and termination of legal entities</li>\r\n<li>Sale
+      and purchase contracts’ framing and analysis </li>\r\n<li>Negotiating and upholding
+      of client’s interests </li>\r\n</ul>"
+  - - '10'
+    - '31'
+    - en
+    - '2013-12-10 02:24:56.487113'
+    - '2013-12-10 02:24:56.487113'
+    - Migration Law
+    - "<ul>\r\n<li>Obtaining work permits for foreign employees</li>\r\n<li>Visa support</li>\r\n<li>The
+      issuing of a migration registration</li>\r\n<li>Consultations on all questions
+      relating to the entry and exit of foreign employees and their families on the
+      territory of the Russian Federation</li>\r\n</ul>\r\n"
+  - - '11'
+    - '32'
+    - en
+    - '2013-12-10 02:26:07.17763'
+    - '2013-12-10 02:26:07.17763'
+    - Tax regulations
+    - "<ul>\r\n<li>Consultations on taxation of mergers and acquisitions, and other
+      types of reorganization</li>\r\n<li>Analysis of tax risks</li>\r\n<li>Consultations
+      on the taxation of financial transactions</li>\r\n<li>Consultations on taxation
+      and tax reporting of foreign individuals</li>\r\n</ul>"
+  - - '12'
+    - '33'
+    - en
+    - '2013-12-10 02:27:05.215196'
+    - '2013-12-10 02:27:05.215196'
+    - Real estate
+    - "<ul>\r\n<li>Legal assistance in the acquisition and sale of land and real estate
+      assets</li>\r\n<li>Change of the category of land property and registration
+      of such changes</li>\r\n<li>Legal support of real estate business in Moscow
+      and other regions</li>\r\n<li>The registration of rights to immovable property</li>\r\n<li>Introduction
+      of amendments to title deeds for real estate </li>\r\n<li>Assistance regarding
+      the entry into the self-regulatory organization for obtaining the building permits</li>\r\n<li>Real
+      estate rental contract framing and follow-up</li>\r\n<li>Privatization of land
+      property</li>\r\n</ul>"
+  - - '13'
+    - '34'
+    - en
+    - '2013-12-10 02:28:03.943582'
+    - '2013-12-10 02:28:03.943582'
+    - Legal representation
+    - "<ul>\r\n<li>Debt collection</li>\r\n<li>Commercial disputes</li>\r\n<li>Disputes
+      with customers</li>\r\n<li>Labour disputes</li>\r\n<li>Disputes in the sphere
+      of real estate</li>\r\n<li>Corporate Disputes</li>\r\n<li>Representation of
+      the clients’ interests at the stage of the execution of a legal process;</li>\r\n</ul>"
+  - - '14'
+    - '35'
+    - en
+    - '2013-12-10 02:29:04.972851'
+    - '2013-12-10 02:29:04.972851'
+    - Labor law
+    - "<ul>\r\n<li>Preparation of HR documentation</li>\r\n<li>Consultations regarding
+      job payment, bonuses, insurance and pension accruals</li>\r\n<li>The restructuring
+      of labor relations, downsizing</li>\r\n<li>Assistance in the resolution of labor
+      disputes, representation and protection of interests in court</li>\r\n<li>Outsourcing
+      and outstaffing of the employees</li>\r\n<li>Consultations regarding protection
+      of labour</li>\r\n<li>Protection of personal information</li>\r\n</ul>"
+  - - '15'
+    - '29'
+    - zh-CN
+    - '2014-01-05 06:25:11.103729'
+    - '2014-01-05 06:25:11.103729'
+    - "知识产权"
+    - "<ul>\r\n<li>版权</li>\r\n<li>专利</li>\r\n<li>商标</li>\r\n</ul>\r\n"
+  - - '16'
+    - '30'
+    - zh-CN
+    - '2014-01-05 06:25:58.451872'
+    - '2014-01-05 06:25:58.451872'
+    - "公司权利"
+    - "<ul>\r\n<li>建立公司，重组公司及清盘公司</li>\r\n<li>代表处和分支机构的认可</li>\r\n<li>兼并与收购</li>\r\n<li>全面公司法律诊断</li>\r\n<li>公司文件和谈判的发展</li>\r\n<li>法律实体的重组和终止</li>\r\n<li>销售合同的开发和分析</li>\r\n<li>谈判和客户利益的维护</li>\r\n</ul>"
+  - - '17'
+    - '31'
+    - zh-CN
+    - '2014-01-05 06:26:33.892811'
+    - '2014-01-05 06:26:33.892811'
+    - "移民法"
+    - "<ul>\r\n<li>获得 外籍员工工作许可</li>\r\n<li>签证支持</li>\r\n<li>使移民管制</li>\r\n<li>对外籍员工及其家属在俄罗斯进入和退出的咨询</li>\r\n</ul>"
+  - - '18'
+    - '32'
+    - zh-CN
+    - '2014-01-05 06:27:13.924694'
+    - '2014-01-05 06:27:13.924694'
+    - "税法"
+    - "<ul>\r\n<li>兼并和收购以及其他类型的重组税务咨询</li>\r\n<li>税务风险分析</li>\r\n<li>金融交易征税的领域的协商</li>\r\n<li>为外籍个人的税务咨询和税务申报</li>\r\n</ul>"
+  - - '19'
+    - '33'
+    - zh-CN
+    - '2014-01-05 06:28:35.514789'
+    - '2014-01-05 06:28:35.514789'
+    - "房地产"
+    - "<ul>\r\n<li>土地和房地产资产的收购和销售的法律支持</li>\r\n<li>土地重新分类，并重新分类登记</li>\r\n<li>在莫斯科的房地产交易的法律支持</li>\r\n<li>不动产的财产登记权</li>\r\n<li>所有权文件对房地产的修订</li>\r\n<li>参加俄罗斯组织建设援助为了取得建筑执照及许可证
+      \   </li>\r\n<li>房地产租赁的开发和维护</li>\r\n<li>土地私有化</li>\r\n</ul>\r\n"
+  - - '20'
+    - '34'
+    - zh-CN
+    - '2014-01-05 06:29:13.183237'
+    - '2014-01-05 06:29:13.183237'
+    - "法律代表"
+    - "<ul>\r\n<li>讨债</li>\r\n<li>商业纠纷</li>\r\n<li>纠纷与客户</li>\r\n<li>劳资纠纷</li>\r\n<li>在房地产领域的纠纷</li>\r\n<li>公司纠纷</li>\r\n<li>在执行程序阶段
+      代表客户利益</li>\r\n</ul>\r\n"
+  - - '21'
+    - '35'
+    - zh-CN
+    - '2014-01-05 06:30:01.3709'
+    - '2014-01-05 06:30:01.3709'
+    - "劳动法"
+    - "<ul>\r\n<li>人力资源文档开发</li>\r\n<li>奖金，保险和养老金预提费用薪酬咨询</li>\r\n<li>调整劳动关系，裁员</li>\r\n<li>协助劳资纠纷，在法院的决议代表和保护的利益</li>\r\n<li>人力资外包和会商</li>\r\n<li>劳动保护方面的咨询</li>\r\n<li>个人数据保护</li>\r\n</ul>"
+
+---
+services:
+  columns:
+  - id
+  - title
+  - description
+  - created_at
+  - updated_at
+  - slug
+  records: 
+  - - '29'
+    - "知识产权"
+    - "<ul>\r\n<li>版权</li>\r\n<li>专利</li>\r\n<li>商标</li>\r\n</ul>\r\n"
+    - '2013-08-07 06:57:23.817818'
+    - '2014-01-05 13:35:24.716325'
+    - intellectual-property
+  - - '30'
+    - "公司权利"
+    - "<ul>\r\n<li>建立公司，重组公司及清盘公司</li>\r\n<li>代表处和分支机构的认可</li>\r\n<li>兼并与收购</li>\r\n<li>全面公司法律诊断</li>\r\n<li>公司文件和谈判的发展</li>\r\n<li>法律实体的重组和终止</li>\r\n<li>销售合同的开发和分析</li>\r\n<li>谈判和客户利益的维护</li>\r\n</ul>"
+    - '2013-08-07 06:57:23.867777'
+    - '2014-01-05 13:35:31.687953'
+    - corporate-law
+  - - '31'
+    - "移民法"
+    - "<ul>\r\n<li>获得 外籍员工工作许可</li>\r\n<li>签证支持</li>\r\n<li>使移民管制</li>\r\n<li>对外籍员工及其家属在俄罗斯进入和退出的咨询</li>\r\n</ul>"
+    - '2013-08-07 06:57:23.889415'
+    - '2014-01-05 13:35:38.443819'
+    - migration-law
+  - - '32'
+    - "税法"
+    - "<ul>\r\n<li>兼并和收购以及其他类型的重组税务咨询</li>\r\n<li>税务风险分析</li>\r\n<li>金融交易征税的领域的协商</li>\r\n<li>为外籍个人的税务咨询和税务申报</li>\r\n</ul>"
+    - '2013-08-07 06:57:23.911092'
+    - '2014-01-05 13:35:43.88515'
+    - tax-regulations
+  - - '33'
+    - "房地产"
+    - "<ul>\r\n<li>土地和房地产资产的收购和销售的法律支持</li>\r\n<li>土地重新分类，并重新分类登记</li>\r\n<li>在莫斯科的房地产交易的法律支持</li>\r\n<li>不动产的财产登记权</li>\r\n<li>所有权文件对房地产的修订</li>\r\n<li>参加俄罗斯组织建设援助为了取得建筑执照及许可证
+      \   </li>\r\n<li>房地产租赁的开发和维护</li>\r\n<li>土地私有化</li>\r\n</ul>\r\n"
+    - '2013-08-07 06:57:23.933474'
+    - '2014-01-05 13:35:50.805111'
+    - real-estate
+  - - '34'
+    - "法律代表"
+    - "<ul>\r\n<li>讨债</li>\r\n<li>商业纠纷</li>\r\n<li>纠纷与客户</li>\r\n<li>劳资纠纷</li>\r\n<li>在房地产领域的纠纷</li>\r\n<li>公司纠纷</li>\r\n<li>在执行程序阶段
+      代表客户利益</li>\r\n</ul>\r\n"
+    - '2013-08-07 06:57:23.955724'
+    - '2014-01-05 13:35:56.788292'
+    - legal-representation
+  - - '35'
+    - "劳动法"
+    - "<ul>\r\n<li>人力资源文档开发</li>\r\n<li>奖金，保险和养老金预提费用薪酬咨询</li>\r\n<li>调整劳动关系，裁员</li>\r\n<li>协助劳资纠纷，在法院的决议代表和保护的利益</li>\r\n<li>人力资外包和会商</li>\r\n<li>劳动保护方面的咨询</li>\r\n<li>个人数据保护</li>\r\n</ul>"
+    - '2013-08-07 06:57:23.977547'
+    - '2014-01-05 13:36:02.306326'
+    - labor-law

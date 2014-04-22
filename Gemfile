@@ -32,12 +32,12 @@ gem 'fog'
 gem 'haml'
 gem 'globalize', '~> 4.0.0.alpha.2'
 gem 'friendly_id', '~> 5.0.0'
-gem 'yaml_db'
 gem 'unicorn' # Use unicorn as the app server
 gem 'capistrano', group: :development # Use Capistrano for deployment
 gem 'capistrano-rbenv'
 gem 'capistrano-bundler'
 gem 'capistrano-rails'
+gem 'yaml_db', github: 'jetthoughts/yaml_db', ref: 'fb4b6bd7e12de3cffa93e0a298a1e5253d7e92ba'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
